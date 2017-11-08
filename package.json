@@ -1,19 +1,25 @@
 {
   "name": "amank.me",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-static start",
+    "build": "react-static build",
+    "serve": "serve dist -p 3000"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amankkg/amank.me.git"
   },
-  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/amankkg/amank.me/issues"
+  "dependencies": {
+    "axios": "^0.17.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-static": "^4.0.1"
   },
-  "homepage": "https://github.com/amankkg/amank.me#readme"
+  "devDependencies": {
+    "eslint-config-react-tools": "^1.0.10",
+    "serve": "^6.4.1"
+  }
 }

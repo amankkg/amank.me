@@ -1,0 +1,26 @@
+import React from 'react'
+import { hydrate } from 'react-dom'
+import { AppContainer } from 'react-hot-loader'
+
+import App from './app'
+
+export default App
+
+if (document != null) {
+  const render = Component => {
+    hydrate(
+      <AppContainer>
+        <Component />
+      </AppContainer>,
+      document.getElementById('root'),
+    )
+  }
+
+  render(App)
+
+  if (module.hot) {
+    module.hot.accept('./App', () => {
+      render(require('./App').default)
+    })
+  }
+}
