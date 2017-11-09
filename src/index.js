@@ -2,11 +2,11 @@ import React from 'react'
 import { hydrate } from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
 
-import App from './app'
+import App from './App'
 
 export default App
 
-if (document != null) {
+if (typeof document !== 'undefined') {
   const render = Component => {
     hydrate(
       <AppContainer>

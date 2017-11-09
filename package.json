@@ -1,6 +1,6 @@
 {
   "name": "amank.me",
-  "version": "1.0.0",
+  "version": "42.0.0",
   "scripts": {
     "start": "react-static start",
     "build": "react-static build",
@@ -19,7 +19,6 @@
     "react-static": "^4.0.1"
   },
   "devDependencies": {
-    "eslint-config-react-tools": "^1.0.10",
     "serve": "^6.4.1"
   }
 }
