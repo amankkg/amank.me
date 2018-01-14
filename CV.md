@@ -13,8 +13,8 @@
 #### 🔘 _June, 2014_ was expelled from university due to academic backlog  
 #### 🔘 _August, 2014_ entered [TimelySoft LLC] as Software Developer Intern  
 > ##### [tender.kz] - maintenance  
-> 🛠 _tools_ ASP.NET Web Forms, JQuery, Bootstrap  
-> ✔️ _challenges_ integrate ASP.NET Identity, Web Forms and LINQ to SQL  
+> _tools_ 🛠 ASP.NET Web Forms, JQuery, Bootstrap  
+> _challenges_ ✔️ integrate ASP.NET Identity, Web Forms and LINQ to SQL  
 #### 🔘 _September, 2014_ became a Software Developer at [TimelySoft LLC]  
 > ##### maintenance & development of in-house web app for [mypizza.kg]  
 > 🛠 ASP.NET MVC, Entity Framework, SQL Server, JQuery, Bootstrap  
