@@ -63,7 +63,7 @@
 #### 🏁 _present_  
 ---
 ### contacts
-* [Telegram] [GitHub] [Twitter] [LinkedIn]
+* [telegram], [github] [twitter] [linkedin]
 * Email or Skype as amankubanychbek`at`gmail`dot`com
 * phone by +9967775877`one`6
 
@@ -75,7 +75,7 @@
 ["Payminator"]: http://www.timelysoft.net/timelysoft/ru/product/Payminator
 [NGon]: https://github.com/amankkg/NGonAlt
 [certificate]: http://www.mycertprofile.com/Profile/1138880762/90/1486
-[Telegram]: https://t.me/amankkg
-[GitHub]: https://github.com/amankkg
-[Twitter]: https://twitter.com/amankkg
-[LinkedIn]: https://www.linkedin.com/in/amankubanychbek/
+[telegram]: https://t.me/amankkg
+[github]: https://github.com/amankkg
+[twitter]: https://twitter.com/amankkg
+[linkedin]: https://www.linkedin.com/in/amankubanychbek/
