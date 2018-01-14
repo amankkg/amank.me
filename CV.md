@@ -56,8 +56,8 @@
 ---
 ### contacts
 * [telegram] | [github] | [twitter] | [linkedin]
-* Email or Skype as amankubanychbek`at`gmail`dot`com
-* phone by +9967775877`one`6
+* email or skype: amankubanychbek`at`gmail`dot`com
+* phone: +9967775877`one`6
 
 [university]: https://kstu.kg/kafedra-programmnoe-obespechenie-kompyuternyh-sistem/
 [DSS]: https://github.com/amankkg/DSS
