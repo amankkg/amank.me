@@ -25,11 +25,7 @@
 > ✔️ develop PDF parsers  
 > #### 🔘 _Mid of 2015_  
 > ##### ["Payminator"] payment system  
-> 🛠
-> - WCF, ASP.NET MVC, SQL Server
-> - React/Redux, Bootstrap, Material Design Lite
-> - JIRA, Confluence
-> 
+> 🛠 WCF, ASP.NET MVC, SQL Server | React/Redux, Bootstrap, Material Design Lite | JIRA, Confluence  
 > ✔️
 > - design & develop web portal for sytem administering
 > - design server-side architecture of web portal, [NGon] library
@@ -41,11 +37,7 @@
 > > #### 🔘 _July, 2016_  
 > #### 🔘 _November, 2016_  
 > ##### Statistical Business Register  
-> 🛠
-> - ASP.NET Core, Entity Framework Core, PostgreSQL, SQL Server
-> - React, Redux, React-Router v3, Semantic-UI React
-> - TFS, Slack, Scrum
-> 
+> 🛠 ASP.NET Core, EF Core, PostgreSQL, SQL Server | React, Redux, React-Router, Semantic-UI React | TFS, Slack, Scrum  
 > ✔️
 > - requirements analysis, solution architecture & technology picks
 > - setup devops pipeline
@@ -63,7 +55,7 @@
 #### 🏁 _present_  
 ---
 ### contacts
-* [telegram], [github] [twitter] [linkedin]
+* [telegram] | [github] | [twitter] | [linkedin]
 * Email or Skype as amankubanychbek`at`gmail`dot`com
 * phone by +9967775877`one`6
 
