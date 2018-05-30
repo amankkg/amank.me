@@ -57,5 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
-coverage/
-dist/
+# Project dependencies
+.cache
+
+# Build directory
+/public
+.DS_Store
