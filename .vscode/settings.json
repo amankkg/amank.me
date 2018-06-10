@@ -8,7 +8,8 @@
     "node_modules": true,
     "build": true,
     ".vscode": true,
-    "package-lock.json": true
+    "package-lock.json": true,
+    ".cache": true
   },
   "eslint.enable": true,
   "flow.enabled": false
