@@ -1,14 +1,16 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../components/layout'
+
 const BlogPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Blog" />
     <h1>Blog</h1>
     <p>To be added...</p>
     <Link to="/">Homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default BlogPage

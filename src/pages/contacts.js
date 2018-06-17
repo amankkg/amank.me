@@ -1,9 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../components/layout'
+
 const ContactsPage = () => (
-  <div>
+  <Layout>
     <Helmet title="Contacts" />
     <h1>Contacts</h1>
     <p>email: amankubanchbek@gmail.com</p>
@@ -12,7 +14,7 @@ const ContactsPage = () => (
     <p>telegram: @amankkg</p>
     <p>skype: code4aman</p>
     <Link to="/">Homepage</Link>
-  </div>
+  </Layout>
 )
 
 export default ContactsPage

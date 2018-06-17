@@ -12,5 +12,6 @@
     ".cache": true
   },
   "eslint.enable": true,
-  "flow.enabled": false
+  "flow.enabled": false,
+  "editor.formatOnSave": true
 }

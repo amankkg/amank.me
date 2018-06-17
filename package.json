@@ -1,8 +1,12 @@
 {
   "name": "amank.me",
   "description": "personal website",
-  "version": "1.0.0",
   "author": "Aman Kubanychbek <amankubanychbek@gmail.com>",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amankkg/amank.me.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -11,9 +15,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^1.9.261",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby": "^2.0.0-beta.1",
+    "gatsby-plugin-react-helmet": "^3.0.0-beta.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
