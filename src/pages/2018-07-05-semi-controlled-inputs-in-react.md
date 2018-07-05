@@ -4,7 +4,7 @@ title: "Semi-controlled inputs in React"
 date: "2018-07-05"
 ---
 
-# Levels of control for React inputs
+# Semi-controlled inputs in React
 
 It's funny to realize how could I miss such simple things, even after a years of doing React.
 Recently, during a code review, I was asked to improve a controlled input usage.
