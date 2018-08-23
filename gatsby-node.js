@@ -1,9 +1,7 @@
 const path = require('path')
 
-exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
-  const mdTemplate = path.resolve('src/md-template.js')
-  return graphql(`
+exports.createPages = ({ actions: { createPage }, graphql }) =>
+  graphql(`
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
@@ -20,11 +18,13 @@ exports.createPages = ({ actions, graphql }) => {
     }
   `).then(result => {
     if (result.errors) return Promise.reject(result.errors)
+
+    const MdTemplate = path.resolve('src/md-template.js')
+
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
-        component: mdTemplate,
+        component: MdTemplate,
       })
     })
   })
-}

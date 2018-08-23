@@ -1,33 +1,41 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+
+import { Link as RawLink } from './link'
+
+const ParentDiv = styled.div`
+  background: #0070bb;
+  margin-bottom: 1.45rem;
+`
+
+const ChildDiv = styled.div`
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+`
+
+const H1 = styled.h1`
+  margin: 0;
+`
+
+const Link = styled(RawLink)`
+  color: white;
+  text-decoration: none;
+`
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: '#0070BB',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
+  <ParentDiv>
+    <ChildDiv>
+      <H1>
+        <Link to="/" text={siteTitle} />
+      </H1>
+    </ChildDiv>
+  </ParentDiv>
 )
 
-export default Header
+Header.propTypes = {
+  siteTitle: PropTypes.string.isRequried,
+}
+
+export { Header }
