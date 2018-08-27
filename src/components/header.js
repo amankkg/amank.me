@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
 )
 
 Header.propTypes = {
-  siteTitle: PropTypes.string.isRequried,
+  siteTitle: PropTypes.string.isRequired,
 }
 
 export { Header }

@@ -6,15 +6,16 @@ import { StaticQuery, graphql } from 'gatsby'
 import { Header } from './header'
 import { Body } from './body'
 
-const layoutQuery = graphql`
-  query LayoutQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
+// TODO: use local variable once this issue resolved https://github.com/gatsbyjs/gatsby/issues/6545
+// const layoutQuery = graphql`
+//   query LayoutQuery {
+//     site {
+//       siteMetadata {
+//         title
+//       }
+//     }
+//   }
+// `
 
 const Layout = ({ children }) => {
   const render = ({
@@ -36,7 +37,20 @@ const Layout = ({ children }) => {
     </>
   )
 
-  return <StaticQuery query={layoutQuery} render={render} />
+  return (
+    <StaticQuery
+      query={graphql`
+        query LayoutQuery {
+          site {
+            siteMetadata {
+              title
+            }
+          }
+        }
+      `}
+      render={render}
+    />
+  )
 }
 
 Layout.propTypes = {
