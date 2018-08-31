@@ -11,7 +11,7 @@ const links = [
 
 const IndexPage = () => (
   <Layout>
-    <Helmet titleTemplate={undefined} />
+    <Helmet />
     <h1>Hi there!</h1>
     <p>My name is Aman Kubanychbek. I'm a software engineer.</p>
     {links.reduce((acc, [path, text]) => {
