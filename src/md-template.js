@@ -1,21 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
 import { Layout } from './components'
-
-const pageQuery = graphql`
-  query MdTemplate($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        path
-        title
-      }
-    }
-  }
-`
 
 const MdTemplate = ({
   data: {
@@ -44,4 +32,16 @@ MdTemplate.propTypes = {
   }),
 }
 
-export { MdTemplate as default, pageQuery }
+export const query = graphql`
+  query MdTemplateQuery($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+      }
+    }
+  }
+`
+
+export default MdTemplate
