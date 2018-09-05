@@ -32,6 +32,7 @@ MdTemplate.propTypes = {
   }),
 }
 
+// TODO: refactor to `export { MdTemplate as default, query }` once supported by gatsby
 export const query = graphql`
   query MdTemplateQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
