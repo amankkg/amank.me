@@ -15,8 +15,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "babel-plugin-styled-components": "^1.6.1",
-    "gatsby": "^2.0.0-rc.10",
+    "babel-plugin-styled-components": "^1.6.2",
+    "gatsby": "^2.0.0-rc.11",
     "gatsby-plugin-react-helmet": "^3.0.0-rc.1",
     "gatsby-plugin-styled-components": "^3.0.0-rc.1",
     "gatsby-source-filesystem": "^2.0.1-rc.1",
