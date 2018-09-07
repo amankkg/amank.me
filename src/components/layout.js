@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import { GlobalStyle } from '../global-style'
 import { Header } from './header'
 import { Body } from './body'
 
@@ -23,6 +24,7 @@ const Layout = ({ children }) => {
       />
       <Header siteTitle={title} />
       <Body>{children}</Body>
+      <GlobalStyle />
     </>
   )
 
