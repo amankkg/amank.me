@@ -10,7 +10,6 @@ import { Body } from './body'
 
 const Layout = ({ children }) => (
   <StaticQuery
-    // TODO: extract as local variable once https://github.com/gatsbyjs/gatsby/issues/6545 fixed
     query={graphql`
       query LayoutQuery {
         site {
@@ -22,27 +21,23 @@ const Layout = ({ children }) => (
     `}
     render={data => {
       const title = data.site.siteMetadata.title
-      const meta = [
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]
-      console.log(data)
 
       return (
         <>
           <Helmet
-            meta={meta}
+            meta={[
+              { name: 'description', content: 'TODO: data => ?' },
+              { name: 'keywords', content: 'TODO: data => ?' },
+            ]}
             defaultTitle={title}
             titleTemplate={`%s | ${title}`}
           />
           <ThemeProvider theme={defaultTheme}>
-            <GlobalStyle />
-          </ThemeProvider>
-          <ThemeProvider theme={defaultTheme}>
-            <Header siteTitle={title} />
-          </ThemeProvider>
-          <ThemeProvider theme={defaultTheme}>
-            <Body>{children}</Body>
+            <>
+              <GlobalStyle />
+              <Header siteTitle={title} />
+              <Body>{children}</Body>
+            </>
           </ThemeProvider>
         </>
       )
