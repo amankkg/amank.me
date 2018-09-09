@@ -1,13 +1,14 @@
 import { createGlobalStyle } from 'styled-components'
-import styledNoramlize from 'styled-normalize'
+import styledNormalize from 'styled-normalize'
 
 const GlobalStyle = createGlobalStyle`
-  ${styledNoramlize}
+  ${styledNormalize}
   html {
     font-family: sans-serif;
     text-size-adjust: 100%;
   }
   body {
+    background: ${props => props.theme.bodyBackground};
     margin: 0;
   }
   article,
@@ -628,6 +629,8 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-const defaultTheme = {}
+const defaultTheme = {
+  bodyBackground: 'none',
+}
 
 export { GlobalStyle, defaultTheme }
