@@ -628,4 +628,6 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export { GlobalStyle }
+const defaultTheme = {}
+
+export { GlobalStyle, defaultTheme }
