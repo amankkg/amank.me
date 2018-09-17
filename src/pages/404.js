@@ -1,11 +1,21 @@
 import React from 'react'
+import styled from 'styled-components'
 
 import { Layout } from '../components'
 
+const Centered = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Centered>
+      <h1>404</h1>
+      <h1>¯\_(ツ)_/¯</h1>
+    </Centered>
   </Layout>
 )
 
