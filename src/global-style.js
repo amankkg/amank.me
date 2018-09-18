@@ -3,14 +3,6 @@ import styledNormalize from 'styled-normalize'
 
 const GlobalStyle = createGlobalStyle`
   ${styledNormalize}
-  html {
-    font-family: sans-serif;
-    text-size-adjust: 100%;
-  }
-  body {
-    background: ${props => props.theme.bodyBackground};
-    margin: 0;
-  }
   article,
   aside,
   details,
@@ -188,9 +180,11 @@ const GlobalStyle = createGlobalStyle`
     font: inherit;
   }
   html {
-    font: 112.5%/1.45em georgia, serif;
     box-sizing: border-box;
     overflow-y: scroll;
+    font-family: sans-serif;
+    font: 112.5%/1.45em georgia, serif;
+    text-size-adjust: 100%;
   }
   * {
     box-sizing: inherit;
@@ -202,7 +196,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
   }
   body {
-    color: hsla(0, 0%, 0%, 0.8);
+    margin: 0;
+    color: ${props => props.theme.body};
+    background: ${props => props.theme.body.background};
     font-family: georgia, serif;
     font-weight: normal;
     word-wrap: break-word;
@@ -630,7 +626,17 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const defaultTheme = {
-  bodyBackground: 'none',
+  body: {
+    background: 'none',
+    color: 'hsla(0, 0%, 0%, 0.8)',
+  },
 }
 
-export { GlobalStyle, defaultTheme }
+const darkTheme = {
+  body: {
+    background: 'hsla(0, 0%, 0%, 0.8)',
+    color: 'white',
+  },
+}
+
+export { GlobalStyle, defaultTheme, darkTheme }
