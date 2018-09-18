@@ -8,7 +8,7 @@ const ContactsPage = () => (
   <Layout>
     <Helmet title="Contacts" />
     <h1>Contacts</h1>
-    <p>email: amankubanchbek@gmail.com</p>
+    <p>email: amankubanychbek@gmail.com</p>
     <p>twitter: @amankkg</p>
     <p>github: @amankkg</p>
     <p>telegram: @amankkg</p>
