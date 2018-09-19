@@ -34,6 +34,18 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'amank.me',
+        short_name: 'amank.me',
+        start_url: '/',
+        background_color: 'white',
+        theme_color: 'black',
+        display: 'minimal-ui',
+        icon: 'content/code.png',
+      },
+    },
     // 'gatsby-transformer-sharp',
     // 'gatsby-plugin-sharp',
     'gatsby-plugin-react-helmet',

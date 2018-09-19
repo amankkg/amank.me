@@ -627,8 +627,8 @@ const GlobalStyle = createGlobalStyle`
 
 const defaultTheme = {
   body: {
-    background: 'none',
-    color: 'hsla(0, 0%, 0%, 0.8)',
+    background: 'white',
+    color: 'black',
   },
 }
 
