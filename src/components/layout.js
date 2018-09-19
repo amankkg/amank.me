@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
+import { ThemeProvider } from 'styled-components'
 
-import Header from './header'
-import './layout.css'
+import { GlobalStyle, defaultTheme } from '../global-style'
+import { Header } from './header'
+import { Body } from './body'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -17,29 +19,31 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
-      <>
-        <Helmet
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-          defaultTitle={data.site.siteMetadata.title}
-          titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-        />
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
-          {children}
-        </div>
-      </>
-    )}
+    render={data => {
+      const title = data.site.siteMetadata.title
+
+      return (
+        <>
+          <Helmet
+            meta={[
+              { name: 'description', content: 'TODO: data => ?' },
+              { name: 'keywords', content: 'TODO: data => ?' },
+            ]}
+            defaultTitle={title}
+            titleTemplate={`%s | ${title}`}
+          >
+            <html lang="en" />
+          </Helmet>
+          <ThemeProvider theme={defaultTheme}>
+            <>
+              <GlobalStyle />
+              <Header siteTitle={title} />
+              <Body>{children}</Body>
+            </>
+          </ThemeProvider>
+        </>
+      )
+    }}
   />
 )
 
@@ -47,4 +51,4 @@ Layout.propTypes = {
   children: PropTypes.node,
 }
 
-export default Layout
+export { Layout }

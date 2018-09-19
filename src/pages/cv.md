@@ -1,7 +1,7 @@
 ---
-path: "/cv"
-title: "CV"
-date: "2018-01-15"
+path: '/cv'
+title: 'CV'
+date: '2018-01-15'
 ---
 
 # Aman Kubanychbek
@@ -93,7 +93,7 @@ date: "2018-01-15"
 
 - [telegram] | [github] | [twitter] | [linkedin]
 - email or skype: amankubanychbek`at`gmail`dot`com
-- phone: +9967775877`one`6
+- phone: +9967775877`one`6 or +375259462`one`60
 
 [university]: https://kstu.kg/kafedra-programmnoe-obespechenie-kompyuternyh-sistem/
 [dss]: https://github.com/amankkg/DSS

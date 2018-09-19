@@ -9,7 +9,8 @@
     "build": true,
     ".vscode": true,
     "package-lock.json": true,
-    ".cache": true
+    ".cache": true,
+    "public": true
   },
   "eslint.enable": true,
   "flow.enabled": false,

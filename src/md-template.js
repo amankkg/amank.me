@@ -1,34 +1,48 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
-import Layout from './components/layout'
+import { Layout } from './components'
 
-export default function MdTemplate({
+const MdTemplate = ({
   data: {
     markdownRemark: {
       frontmatter: { title, date },
       html,
     },
   },
-}) {
-  return (
-    <Layout>
-      <Helmet title={title} />
-      <h5>{date}</h5>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-    </Layout>
-  )
+}) => (
+  <Layout>
+    <Helmet title={title} />
+    <h5>{date}</h5>
+    <div dangerouslySetInnerHTML={{ __html: html }} />
+  </Layout>
+)
+
+MdTemplate.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        date: PropTypes.string.isRequired,
+      }),
+      html: PropTypes.string.isRequired,
+    }),
+  }),
 }
 
-export const pageQuery = graphql`
-  query MdTemplate($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+// TODO: refactor to `export { MdTemplate as default, query }` once supported by gatsby
+export const query = graphql`
+  query MdTemplateQuery($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        path
         title
       }
     }
   }
 `
+
+export default MdTemplate
