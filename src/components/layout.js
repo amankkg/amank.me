@@ -31,7 +31,9 @@ const Layout = ({ children }) => (
             ]}
             defaultTitle={title}
             titleTemplate={`%s | ${title}`}
-          />
+          >
+            <html lang="en" />
+          </Helmet>
           <ThemeProvider theme={defaultTheme}>
             <>
               <GlobalStyle />
