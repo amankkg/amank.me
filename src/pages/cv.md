@@ -1,17 +1,14 @@
 ---
 path: '/cv'
 title: 'CV'
-date: '2018-01-15'
+date: '2018-10-13'
 ---
 
 # Aman Kubanychbek
 
 ### software developer
 
-- experienced in JavaScript and .NET
-- interested (and learning) in many aspects of building software
-- hyped by functional programming
-- still can not master TDD
+##### JavaScript (React/Redux, Flow), .NET (ASP.NET Core), FP, clouds, DDD, graph databases
 
 ---
 
@@ -27,29 +24,23 @@ date: '2018-01-15'
 
 > ##### [tender.kz] - maintenance
 >
-> _tools_ 🛠 ASP.NET Web Forms, JQuery, Bootstrap  
-> _challenges_ ✔️ integrate ASP.NET Identity, Web Forms and LINQ to SQL
+> - integrate ASP.NET Identity, Web Forms and LINQ to SQL
 
 #### 🔘 _September, 2014_ became a Software Developer at [TimelySoft LLC]
 
 > ##### maintenance & development of in-house web app for [mypizza.kg]
 >
-> 🛠 ASP.NET MVC, Entity Framework, SQL Server, JQuery, Bootstrap  
-> ✔️ customer communication
+> - customer communication
 >
 > #### 🔘 _End of 2014_
 >
 > ##### [tender.kz] - maintenance & development
 >
-> 🛠 LINQ to SQL, SQL Server  
-> ✔️ develop PDF parsers
+> - develop PDF parsers
 >
 > #### 🔘 _Mid of 2015_
 >
 > ##### ["Payminator"] payment system
->
-> 🛠 WCF, ASP.NET MVC, SQL Server | React/Redux, Bootstrap, Material Design Lite | JIRA, Confluence  
-> ✔️
 >
 > - design & develop web portal for sytem administering
 > - design server-side architecture of web portal, [NGon] library
@@ -58,8 +49,7 @@ date: '2018-01-15'
 >   >
 >   > > ##### events calendar web app (side project)
 >   > >
->   > > 🛠 Node.js, Express, MongoDB, React, Redux, React-Bootstrap, FullCalendar  
->   > > ✔️ build handy calendar for people across US with its timezones in mind
+>   > > - build handy calendar for people across US with its timezones in mind
 >   >
 >   > #### 🔘 _July, 2016_
 >
@@ -67,25 +57,27 @@ date: '2018-01-15'
 >
 > ##### Statistical Business Register
 >
-> 🛠 ASP.NET Core, EF Core, PostgreSQL, SQL Server | React, Redux, React-Router, Semantic-UI React | TFS, Slack, Scrum  
-> ✔️
->
 > - requirements analysis, solution architecture & technology picks
 > - setup devops pipeline
 > - customer and user interaction, partial team-leadership
 > - interviewing & mentoring of teammates
->   > #### 🔘 _February, 2017_ 🎖 achieved [certificate] 70-483 Programming in C
+>   > #### 🔘 _February, 2017_ 🎖 achieved [70-483 Programming in C#]
 >   >
 >   > #### 🔘 _March, 2017_
 >   >
 >   > > ##### movie subtitles management web app (side project)
 >   > >
->   > > 🛠 React, Redux, Next.js, Ant Design  
->   > > ✔️ develop prototype, design frontend architecture, code review
+>   > > - develop prototype, design frontend architecture, code review
 >   >
 >   > #### 🔘 _May, 2017_
 
-#### 🏁 _present_
+#### 🏁 _March, 2018_ became a Software Developer at [Klika Tech Inc.]
+
+> ##### project Arago
+>
+> - develop and support multiple web applications
+> - get in touch with Scrum (the real one)
+>   > #### 🔘 _August, 2018_ 🎖 achieved [Alibaba Cloud Professional]
 
 ---
 
@@ -98,12 +90,14 @@ date: '2018-01-15'
 [university]: https://kstu.kg/kafedra-programmnoe-obespechenie-kompyuternyh-sistem/
 [dss]: https://github.com/amankkg/DSS
 [timelysoft llc]: http://www.timelysoft.net/timelysoft
+[klika tech inc.]: http://www.klika-tech.com/
 [tender.kz]: http://www.timelysoft.net/timelysoft/en/product/Information-Portal-wwwtenderkz
 [mypizza.kg]: http://www.timelysoft.net/timelysoft/en/product/TSSalaryEFMCheckList--upravlenie-oprosami-1
 ["payminator"]: http://www.timelysoft.net/timelysoft/ru/product/Payminator
 [ngon]: https://github.com/amankkg/NGonAlt
-[certificate]: http://www.mycertprofile.com/Profile/1138880762/90/1486
+[70-483 programming in c#]: http://www.mycertprofile.com/Profile/1138880762/90/1486
 [telegram]: https://t.me/amankkg
+[alibaba cloud professional]: https://gist.github.com/amankkg/?
 [github]: https://github.com/amankkg
 [twitter]: https://twitter.com/amankkg
 [linkedin]: https://www.linkedin.com/in/amankubanychbek/
