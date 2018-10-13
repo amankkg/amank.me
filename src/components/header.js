@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import { Link as RawLink } from './link'
+import { Emoji } from './emoji'
 
 const ParentDiv = styled.div`
   background: #0070bb;
@@ -28,6 +29,7 @@ const Header = ({ siteTitle }) => (
   <ParentDiv>
     <ChildDiv>
       <H1>
+        <Emoji label="waving hand" value="👋" />
         <Link to="/" text={siteTitle} />
       </H1>
     </ChildDiv>

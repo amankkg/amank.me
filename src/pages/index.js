@@ -1,18 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import { Layout, Link, Emoji } from '../components'
+import { Layout, Link } from '../components'
 
 const IndexPage = () => (
   <Layout>
-    <Helmet />
-    <p>
-      <Emoji label="waving hand" value="👋" />
-      Hey!
-    </p>
-    <Link to="/blog/" text="Blogposts" />
-    &nbsp;
-    <Link to="/contacts/" text="Contacts" />
+    <Helmet title="Home" />
+    <p>blogposts...</p>
+    <Link to="/contacts/" text="Contact me" />
     &nbsp;
     <Link to="/cv/" text="CV" />
   </Layout>
