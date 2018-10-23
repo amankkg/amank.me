@@ -97,7 +97,7 @@ date: '2018-10-13'
 [ngon]: https://github.com/amankkg/NGonAlt
 [70-483 programming in c#]: http://www.mycertprofile.com/Profile/1138880762/90/1486
 [telegram]: https://t.me/amankkg
-[alibaba cloud professional]: https://gist.github.com/amankkg/?
+[alibaba cloud professional]: https://gist.github.com/amankkg/6af5bb7f4db96969d7e1c44d16b69e9a
 [github]: https://github.com/amankkg
 [twitter]: https://twitter.com/amankkg
 [linkedin]: https://www.linkedin.com/in/amankubanychbek/
