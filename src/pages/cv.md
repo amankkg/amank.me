@@ -95,7 +95,7 @@ date: '2018-10-13'
 [mypizza.kg]: http://www.timelysoft.net/timelysoft/en/product/TSSalaryEFMCheckList--upravlenie-oprosami-1
 ["payminator"]: http://www.timelysoft.net/timelysoft/ru/product/Payminator
 [ngon]: https://github.com/amankkg/NGonAlt
-[70-483 programming in c#]: http://www.mycertprofile.com/Profile/1138880762/90/1486
+[70-483 programming in c#]: https://www.youracclaim.com/badges/3c5fcbc2-5cff-4d3b-a9ac-6d23adec9f70/public_url
 [telegram]: https://t.me/amankkg
 [alibaba cloud professional]: https://gist.github.com/amankkg/6af5bb7f4db96969d7e1c44d16b69e9a
 [github]: https://github.com/amankkg
