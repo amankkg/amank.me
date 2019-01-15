@@ -6,9 +6,8 @@ import { Layout, Link } from '../components'
 const IndexPage = () => (
   <Layout>
     <Helmet title="Home" />
-    <p>blogposts...</p>
-    <Link to="/contacts/" text="Contact me" />
-    &nbsp;
+    {/* <p>blogposts...</p>
+    <Link to="/contacts/" text="Contact me" /> */}
     <Link to="/cv/" text="CV" />
   </Layout>
 )

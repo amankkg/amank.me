@@ -13,7 +13,7 @@ date: '2019-01-16'
 - with passion for functional programming
 - interesting in distributed systems and software design
 
-[Telegram] | [GitHub] | [LinkedIn] | amankubanychbek@gmail.com
+[GitHub] | [LinkedIn] | [Telegram] | amankubanychbek@gmail.com
 
 ---
 
