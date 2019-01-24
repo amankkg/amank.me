@@ -3,13 +3,6 @@ import styled from '@emotion/styled'
 
 import { Layout } from '../components'
 
-const Centered = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`
-
 const NotFoundPage = () => (
   <Layout>
     <Centered>
@@ -18,5 +11,12 @@ const NotFoundPage = () => (
     </Centered>
   </Layout>
 )
+
+const Centered = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
 
 export default NotFoundPage

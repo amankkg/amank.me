@@ -5,6 +5,21 @@ import styled from '@emotion/styled'
 import { Link as RawLink } from './link'
 import { Emoji } from './emoji'
 
+const Header = ({ siteTitle }) => (
+  <ParentDiv>
+    <ChildDiv>
+      <H1>
+        <Emoji label="waving hand" value="👋" />
+        <Link to="/" text={siteTitle} />
+      </H1>
+    </ChildDiv>
+  </ParentDiv>
+)
+
+Header.propTypes = {
+  siteTitle: PropTypes.string.isRequired,
+}
+
 const ParentDiv = styled.div`
   background: #0070bb;
   margin-bottom: 1.45rem;
@@ -24,20 +39,5 @@ const Link = styled(RawLink)`
   color: white;
   text-decoration: none;
 `
-
-const Header = ({ siteTitle }) => (
-  <ParentDiv>
-    <ChildDiv>
-      <H1>
-        <Emoji label="waving hand" value="👋" />
-        <Link to="/" text={siteTitle} />
-      </H1>
-    </ChildDiv>
-  </ParentDiv>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string.isRequired,
-}
 
 export { Header }
