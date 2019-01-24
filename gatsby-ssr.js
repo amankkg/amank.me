@@ -1,13 +1,7 @@
 import { renderToString } from 'react-dom/server'
-import { ServerStyleSheet } from 'styled-components'
 
-const replaceRenderer = ({
-  bodyComponent,
-  replaceBodyHTMLString,
-  setHeadComponents,
-}) => {
+const replaceRenderer = ({ bodyComponent, replaceBodyHTMLString }) => {
   replaceBodyHTMLString(renderToString(bodyComponent))
-  setHeadComponents([new ServerStyleSheet().getStyleElement()])
 }
 
 export { replaceRenderer }
