@@ -63,3 +63,4 @@ typings/
 # Build directory
 /public
 .DS_Store
+.vscode/

@@ -1,105 +1,95 @@
 ---
 path: '/cv'
 title: 'CV'
-date: '2019-02-03'
+date: '2019-02-04'
 ---
 
 # Aman Kubanychbek
 
 ## software engineer
 
-- with experience in .NET, NodeJS and frontend with React
-- preferring strongly typed JavaScript
-- with passion for functional programming
-- interesting in distributed systems and software design
+- with full-stack expertise in .NET and JavaScript
+- with passion for FP and types (even in JavaScript)
+- interested in distributed systems, software design and similar not childish stuff
 
 [Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
 
+## my experience
+
+### _mar 2018 - current_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
+
+> #### project [Arago] - AI IT automation
+>
+> _🛠 React, DraftJS, Redux-Saga, TypeScript, NestJS, JanusGraph, Gremlin_
+>
+> - develop and support multiple web applications front/backends and CLI tools
+> - build a chat bot and collaborative editor with intelligent NLP
+> - work with graph database
+> - get in touch with Scrum and Nexus frameworks
+> - lead & mentor a sub-team of 2 developers
+> - work in distributed team
+>
+> #### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
+
 ---
 
-### _September, 2009_
+### _aug 2014 - feb 2018_ | 🎉 Software Developer @ [TimelySoft]
 
-> #### 🎉 enrolled in [KSTU, Computer Software Engineering][university]
->
-> _TODO: describe student projects ([DSS], tetrix, payment system) like if it does matter_
->
-> #### 😞 _June, 2014_ was expelled from university due to academic backlog
+> #### [TS.Salary.EFMChecklist] survey management system
 
----
-
-### _August, 2014_
-
-> #### 🎉 joined [TimelySoft] as a Software Developer
->
-> ##### [tender.kz] - maintenance
->
-> - integrate ASP.NET Identity, Web Forms and LINQ to SQL
->
-> ##### maintenance & development of survey management system [TS.Salary.EFMChecklist]
->
+> - develop ASP.NET MVC web app
 > - customer communication
 >
-> #### 📅 _End-2014_
->
-> ##### [tender.kz] - maintenance & development
+> #### 📅 _late 2014 - mid 2015_ | [tender.kz] e-portal
 >
 > - develop PDF parsers
+> - integrate ASP.NET Identity, Web Forms and LINQ to SQL
 >
-> #### 📅 _Mid-2015_
+> #### 📅 _mid 2015 - late 2016_ | ["Payminator"] payment system
 >
-> ##### ["Payminator"] payment system
+> _🛠 React, Redux, Babel, Webpack, PostCSS, React-MDL, ASP.NET MVC, WCF, MSSQL_
 >
 > - design & develop web portal for system administering
 > - design server-side architecture of web portal, [NGon] library
 > - design frontend architecture of web portal
+> - mixing of React/Redux app into a server rendered
 >
-> > #### 📅 _June-July, 2016_
-> >
-> > ##### events calendar web app
-> >
-> > - build handy calendar for people across US with its time zones in mind
+> #### 📅 _late 2016 - early 2018_ | Statistical Business Registry
 >
-> #### 📅 _November, 2016_
+> _🛠 React, Ramda, Semantic-UI, ASP.NET Core, PostgreSQL_
 >
-> ##### Statistical Business Register
->
-> - requirements analysis, solution architecture & technology picks
+> - generation of heavy forms and validation of them using Formik
+> - extend & customize React-Select component
+> - development of query builder UI using Ramda lenses
+> - advanced usage of EF Core
 > - setup DevOps pipeline
+> - requirements analysis, solution architecture & technology picks
 > - customer and user interaction
-> - lead a team of 3-4 members
-> - interviewing & mentoring of teammates
+> - lead and mentor a team of 3-4 members
+> - interviewing candidates
 > - open source projects collaboration
 >
-> > #### 🎉 _February, 2017_ 🎖 achieved [70-483 Programming in C#]
-> >
-> > #### 📅 _March, 2017_
-> >
-> > > ##### movie subtitles management web app
-> > >
-> > > - develop prototype, design frontend architecture, code review
-> >
-> > #### 📅 _May, 2017_
+> #### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
 
 ---
 
-### _March, 2018_
-
-> #### 🎉 joined [Klika Tech] as a Software Developer
+> #### 📅 _jun - jul 2016_ | events calendar web app
 >
-> ##### project [Arago] - AI IT automation
+> - build handy calendar using FullCalendar for people across US with its time zones in mind
 >
-> - develop and support multiple web applications and CLI tools
-> - build a chat bot and collaborative editor with intelligent NLP
-> - work with graph database
-> - get in touch with Scrum and Nexus
-> - lead a sub-team of 2 developers
-> - work in distributed team
+> #### 📅 _mar - may 2017_ | movie subtitles management web app
 >
-> > #### 🎉 _August, 2018_ 🎖 achieved [Alibaba Cloud Professional]
+> - develop prototype using NextJS, design frontend architecture, code review
 
 ---
 
-[Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
+### _2009 - 2014_ | 🎉 enrolled in [KSTU, Computer Software Engineering][university]
+
+> - built a tetris game for desktop with unusual figures _🛠 VB.NET_
+> - built a mini payment system database and desktop client app _🛠 PowerDesigner/PowerScript, MSSQL_
+> - participated in [DSS] project - decision support system desktop app _🛠 C#, WPF, MSSQL_
+>
+> #### 😞 was expelled from university due to academic backlog
 
 [telegram]: https://t.me/amankkg
 [github]: https://github.com/amankkg
