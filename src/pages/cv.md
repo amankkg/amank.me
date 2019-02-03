@@ -9,7 +9,7 @@ date: '2019-02-04'
 ## software engineer
 
 - with full-stack expertise in .NET and JavaScript
-- with passion for functional programming and types (even in JavaScript)
+- with passion for FP and types (even in JavaScript)
 - interested in distributed systems, software design and similar not childish stuff
 
 [Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
