@@ -1,3 +1,3 @@
 # amank.me
 
-personal website built with Gatsby.js and styled-components
+personal website built using [Gatsby](https://www.gatsbyjs.org)

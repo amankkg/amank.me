@@ -15,7 +15,7 @@ const MdTemplate = ({
 }) => (
   <Layout>
     <Helmet title={title} />
-    <small>updated: {date}</small>
+    <small>last active: {date}</small>
     <div dangerouslySetInnerHTML={{ __html: html }} />
   </Layout>
 )

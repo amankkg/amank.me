@@ -1,7 +1,7 @@
 ---
 path: '/cv'
 title: 'CV'
-date: '2019-01-16'
+date: '2019-02-03'
 ---
 
 # Aman Kubanychbek
@@ -19,7 +19,7 @@ date: '2019-01-16'
 
 ### _September, 2009_
 
-> #### 🎉 entered [KSTU, Computer Software Engineering][university] as a student
+> #### 🎉 enrolled in [KSTU, Computer Software Engineering][university]
 >
 > _TODO: describe student projects ([DSS], tetrix, payment system) like if it does matter_
 >
@@ -29,7 +29,7 @@ date: '2019-01-16'
 
 ### _August, 2014_
 
-> #### 🎉 joined [TimelySoft] as Software Developer
+> #### 🎉 joined [TimelySoft] as a Software Developer
 >
 > ##### [tender.kz] - maintenance
 >
@@ -52,11 +52,12 @@ date: '2019-01-16'
 > - design & develop web portal for system administering
 > - design server-side architecture of web portal, [NGon] library
 > - design frontend architecture of web portal
->   > #### 📅 _June-July, 2016_
->   >
->   > ##### events calendar web app
->   >
->   > - build handy calendar for people across US with its time zones in mind
+>
+> > #### 📅 _June-July, 2016_
+> >
+> > ##### events calendar web app
+> >
+> > - build handy calendar for people across US with its time zones in mind
 >
 > #### 📅 _November, 2016_
 >
@@ -68,21 +69,22 @@ date: '2019-01-16'
 > - lead a team of 3-4 members
 > - interviewing & mentoring of teammates
 > - open source projects collaboration
->   > #### 🎉 _February, 2017_ 🎖 achieved [70-483 Programming in C#]
->   >
->   > #### 📅 _March, 2017_
->   >
->   > > ##### movie subtitles management web app
->   > >
->   > > - develop prototype, design frontend architecture, code review
->   >
->   > #### 📅 _May, 2017_
+>
+> > #### 🎉 _February, 2017_ 🎖 achieved [70-483 Programming in C#]
+> >
+> > #### 📅 _March, 2017_
+> >
+> > > ##### movie subtitles management web app
+> > >
+> > > - develop prototype, design frontend architecture, code review
+> >
+> > #### 📅 _May, 2017_
 
 ---
 
 ### _March, 2018_
 
-> #### 🎉 joined [Klika Tech] as Software Developer
+> #### 🎉 joined [Klika Tech] as a Software Developer
 >
 > ##### project [Arago] - AI IT automation
 >
@@ -92,7 +94,8 @@ date: '2019-01-16'
 > - get in touch with Scrum and Nexus
 > - lead a sub-team of 2 developers
 > - work in distributed team
->   > #### 🎉 _August, 2018_ 🎖 achieved [Alibaba Cloud Professional]
+>
+> > #### 🎉 _August, 2018_ 🎖 achieved [Alibaba Cloud Professional]
 
 ---
 
