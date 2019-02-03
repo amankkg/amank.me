@@ -8,10 +8,9 @@ date: '2019-02-04'
 
 ## software engineer
 
-- with full-stack expertise in JavaScript and .NET
-- preferring strongly typed JavaScript
-- with passion for functional programming
-- interesting in distributed systems and software design
+- with full-stack expertise in .NET and JavaScript
+- with passion for functional programming and types (even in JavaScript)
+- interested in distributed systems, software design and similar not childish stuff
 
 [Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
 
@@ -21,13 +20,13 @@ date: '2019-02-04'
 
 > #### project [Arago] - AI IT automation
 >
-> _🛠 React, Redux, Redux-Saga, Babel, TypeScript, NodeJS, NestJS, JanusGraph, Gremlin_
+> _🛠 React, DraftJS, Redux-Saga, TypeScript, NestJS, JanusGraph, Gremlin_
 >
 > - develop and support multiple web applications front/backends and CLI tools
 > - build a chat bot and collaborative editor with intelligent NLP
 > - work with graph database
 > - get in touch with Scrum and Nexus frameworks
-> - lead a sub-team of 2 developers
+> - lead & mentor a sub-team of 2 developers
 > - work in distributed team
 >
 > #### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
@@ -48,21 +47,26 @@ date: '2019-02-04'
 >
 > #### 📅 _mid 2015 - late 2016_ | ["Payminator"] payment system
 >
-> _🛠 React, Redux, Babel, Webpack, PostCSS, React-MDL, ASP.NET MVC, WCF, EF, MSSQL_
+> _🛠 React, Redux, Babel, Webpack, PostCSS, React-MDL, ASP.NET MVC, WCF, MSSQL_
 >
 > - design & develop web portal for system administering
 > - design server-side architecture of web portal, [NGon] library
 > - design frontend architecture of web portal
+> - mixing of React/Redux app into a server rendered
 >
 > #### 📅 _late 2016 - early 2018_ | Statistical Business Registry
 >
-> _🛠 React, Redux, Babel, Webpack, Ramda, Semantic-UI, ASP.NET Core, EF Core, PostgreSQL_
+> _🛠 React, Ramda, Semantic-UI, ASP.NET Core, PostgreSQL_
 >
-> - requirements analysis, solution architecture & technology picks
+> - generation of heavy forms and validation of them using Formik
+> - extend & customize React-Select component
+> - development of query builder UI using Ramda lenses
+> - advanced usage of EF Core
 > - setup DevOps pipeline
+> - requirements analysis, solution architecture & technology picks
 > - customer and user interaction
-> - lead a team of 3-4 members
-> - interviewing & mentoring of teammates
+> - lead and mentor a team of 3-4 members
+> - interviewing candidates
 > - open source projects collaboration
 >
 > #### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
@@ -71,15 +75,11 @@ date: '2019-02-04'
 
 > #### 📅 _jun - jul 2016_ | events calendar web app
 >
-> _🛠 React, FullCalendar_
->
-> - build handy calendar for people across US with its time zones in mind
+> - build handy calendar using FullCalendar for people across US with its time zones in mind
 >
 > #### 📅 _mar - may 2017_ | movie subtitles management web app
 >
-> _🛠 React, Next.js, Redux, PostCSS_
->
-> - develop prototype, design frontend architecture, code review
+> - develop prototype using NextJS, design frontend architecture, code review
 
 ---
 
