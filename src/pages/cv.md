@@ -17,17 +17,24 @@ date: '2019-02-03'
 
 ---
 
-### _September, 2009_
+### _March, 2018 - current_
 
-> #### 🎉 enrolled in [KSTU, Computer Software Engineering][university]
+> #### 🎉 joined [Klika Tech] as a Software Developer
 >
-> _TODO: describe student projects ([DSS], tetrix, payment system) like if it does matter_
+> ##### project [Arago] - AI IT automation
 >
-> #### 😞 _June, 2014_ was expelled from university due to academic backlog
+> - develop and support multiple web applications front/backends and CLI tools
+> - build a chat bot and collaborative editor with intelligent NLP
+> - work with graph database
+> - get in touch with Scrum and Nexus
+> - lead a sub-team of 2 developers
+> - work in distributed team
+>
+> > #### 🎉 _August, 2018_ 🎖 achieved [Alibaba Cloud Professional]
 
 ---
 
-### _August, 2014_
+### _August, 2014 - February, 2018_
 
 > #### 🎉 joined [TimelySoft] as a Software Developer
 >
@@ -39,13 +46,13 @@ date: '2019-02-03'
 >
 > - customer communication
 >
-> #### 📅 _End-2014_
+> #### 📅 _End of 2014 - Mid of 2015_
 >
 > ##### [tender.kz] - maintenance & development
 >
 > - develop PDF parsers
 >
-> #### 📅 _Mid-2015_
+> #### 📅 _Mid of 2015 - End of 2016_
 >
 > ##### ["Payminator"] payment system
 >
@@ -53,13 +60,13 @@ date: '2019-02-03'
 > - design server-side architecture of web portal, [NGon] library
 > - design frontend architecture of web portal
 >
-> > #### 📅 _June-July, 2016_
+> > #### 📅 _June - July, 2016_
 > >
 > > ##### events calendar web app
 > >
 > > - build handy calendar for people across US with its time zones in mind
 >
-> #### 📅 _November, 2016_
+> #### 📅 _End of 2016 - Early 2018_
 >
 > ##### Statistical Business Register
 >
@@ -72,34 +79,23 @@ date: '2019-02-03'
 >
 > > #### 🎉 _February, 2017_ 🎖 achieved [70-483 Programming in C#]
 > >
-> > #### 📅 _March, 2017_
+> > #### 📅 _March - May, 2017_
 > >
 > > > ##### movie subtitles management web app
 > > >
 > > > - develop prototype, design frontend architecture, code review
-> >
-> > #### 📅 _May, 2017_
+
+### _2009 - 2014_
+
+> #### 🎉 enrolled in [KSTU, Computer Software Engineering][university]
+>
+> - built a tetris game for desktop with unusual figures
+> - built a mini payment system database and desktop client app
+> - participated in [DSS] project - decision support system desktop app
+>
+> #### 😞 was expelled from university due to academic backlog
 
 ---
-
-### _March, 2018_
-
-> #### 🎉 joined [Klika Tech] as a Software Developer
->
-> ##### project [Arago] - AI IT automation
->
-> - develop and support multiple web applications and CLI tools
-> - build a chat bot and collaborative editor with intelligent NLP
-> - work with graph database
-> - get in touch with Scrum and Nexus
-> - lead a sub-team of 2 developers
-> - work in distributed team
->
-> > #### 🎉 _August, 2018_ 🎖 achieved [Alibaba Cloud Professional]
-
----
-
-[Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
 
 [telegram]: https://t.me/amankkg
 [github]: https://github.com/amankkg
