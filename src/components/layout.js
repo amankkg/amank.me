@@ -3,9 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import { Global, css } from '@emotion/core'
-import { ThemeProvider } from 'emotion-theming'
 
-import { light } from '../themes'
 import { Header } from './header'
 import { Body } from './body'
 
@@ -36,12 +34,8 @@ const Layout = ({ children }) => (
             <html lang="en" />
           </Helmet>
           <Global styles={globalStyles} />
-          <ThemeProvider theme={light}>
-            <>
-              <Header siteTitle={title} />
-              <Body>{children}</Body>
-            </>
-          </ThemeProvider>
+          <Header siteTitle={title} />
+          <Body>{children}</Body>
         </>
       )
     }}

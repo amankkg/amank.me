@@ -22,13 +22,13 @@ Header.propTypes = {
 
 const ParentDiv = styled.div`
   background: #0070bb;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.6rem;
 `
 
 const ChildDiv = styled.div`
   margin: 0 auto;
   max-width: 960px;
-  padding: 1.45rem 1.0875rem;
+  padding: 1.4rem 1.1rem;
 `
 
 const H1 = styled.h1`
