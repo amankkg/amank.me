@@ -13,7 +13,7 @@ date: '2019-02-03'
 - with passion for functional programming
 - interesting in distributed systems and software design
 
-[GitHub] | [LinkedIn] | [Telegram] | amankubanychbek@gmail.com
+[Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
 
 ---
 
@@ -99,10 +99,11 @@ date: '2019-02-03'
 
 ---
 
-[Telegram] | [GitHub] | [LinkedIn] | amankubanychbek@gmail.com
+[Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
 
 [telegram]: https://t.me/amankkg
 [github]: https://github.com/amankkg
+[twitter]: https://twitter.com/amankkg
 [linkedin]: https://www.linkedin.com/in/amankubanychbek/
 [university]: https://kstu.kg/kafedra-programmnoe-obespechenie-kompyuternyh-sistem/
 [dss]: https://github.com/amankkg/DSS
