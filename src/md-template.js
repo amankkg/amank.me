@@ -15,7 +15,9 @@ const MdTemplate = ({
 }) => (
   <Layout>
     <Helmet title={title} />
-    <small>updated: {date}</small>
+    <small css={{ float: 'right' }}>
+      Last active: <strong>{date}</strong>
+    </small>
     <div dangerouslySetInnerHTML={{ __html: html }} />
   </Layout>
 )
@@ -38,7 +40,7 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMM DD, YYYY")
         title
       }
     }

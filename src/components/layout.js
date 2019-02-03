@@ -2,9 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import { ThemeProvider } from 'styled-components'
+import { Global, css } from '@emotion/core'
 
-import { GlobalStyle, defaultTheme } from '../global-style'
 import { Header } from './header'
 import { Body } from './body'
 
@@ -34,13 +33,9 @@ const Layout = ({ children }) => (
           >
             <html lang="en" />
           </Helmet>
-          <ThemeProvider theme={defaultTheme}>
-            <>
-              <GlobalStyle />
-              <Header siteTitle={title} />
-              <Body>{children}</Body>
-            </>
-          </ThemeProvider>
+          <Global styles={globalStyles} />
+          <Header siteTitle={title} />
+          <Body>{children}</Body>
         </>
       )
     }}
@@ -52,3 +47,20 @@ Layout.propTypes = {
 }
 
 export { Layout }
+
+const globalStyles = css`
+  * {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+  code {
+    font-family: 'Fira Code', 'SFMono-Regular', Consolas, 'Roboto Mono',
+      'Droid Sans Mono', 'Liberation Mono', Menlo, Courier, monospace;
+  }
+  li {
+    margin-bottom: 0.25rem;
+  }
+`

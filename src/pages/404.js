@@ -1,14 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 
 import { Layout } from '../components'
-
-const Centered = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`
 
 const NotFoundPage = () => (
   <Layout>
@@ -18,5 +11,12 @@ const NotFoundPage = () => (
     </Centered>
   </Layout>
 )
+
+const Centered = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
 
 export default NotFoundPage
