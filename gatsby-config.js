@@ -1,7 +1,9 @@
+const constants = require('./constants')
+
 module.exports = {
   siteMetadata: {
-    title: 'amank.me',
-    author: 'Aman Kubanychbek',
+    title: constants.siteTitle,
+    author: constants.fullName,
   },
   plugins: [
     {
@@ -37,8 +39,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'amank.me',
-        short_name: 'amank.me',
+        name: constants.siteTitle,
+        short_name: constants.siteTitle,
         start_url: '/',
         background_color: 'white',
         theme_color: '0070bb',
