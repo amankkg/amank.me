@@ -1,7 +1,7 @@
 ---
-path: '/cv'
 title: 'CV'
-date: '2019-02-04'
+date: '2018-01-15'
+updated: '2019-02-04'
 ---
 
 # Aman Kubanychbek
@@ -10,7 +10,7 @@ date: '2019-02-04'
 
 - with full-stack expertise in .NET and JavaScript
 - with passion for FP and types (even in JavaScript)
-- interested in distributed systems, software design and similar not childish stuff
+- interested in distributed systems, software design and similar serious stuff
 
 [Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
 
