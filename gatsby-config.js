@@ -41,7 +41,7 @@ module.exports = {
         short_name: 'amank.me',
         start_url: '/',
         background_color: 'white',
-        theme_color: 'black',
+        theme_color: '0070bb',
         display: 'minimal-ui',
         icon: 'content/code.png',
       },

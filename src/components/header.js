@@ -30,7 +30,6 @@ const ParentDiv = styled.div`
 `
 
 const ChildDiv = styled.div`
-  display: inline-block;
   margin: 0 auto;
   max-width: 960px;
   padding: 1.4rem 1.1rem;

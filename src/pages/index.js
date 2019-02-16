@@ -49,7 +49,7 @@ export default IndexPage
 export const pagesListQuery = graphql`
   query PagesListQuery {
     allMarkdownRemark(
-      # filter: { frontmatter: { title: { ne: "CV" } } }
+      filter: { frontmatter: { title: { ne: "CV" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
@@ -70,6 +70,7 @@ export const pagesListQuery = graphql`
 const PostList = styled.div`
   display: flex;
   flex-direction: column;
+  padding-left: 1rem;
 `
 
 const PostLink = ({ slug, title, date }) => (
