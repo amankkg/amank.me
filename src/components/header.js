@@ -12,6 +12,8 @@ const Header = ({ siteTitle }) => (
         <Emoji label="waving hand" value="👋" />
         <Link to="/" text={siteTitle} />
       </H1>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <Link to="/cv/" text="CV" />
     </ChildDiv>
   </ParentDiv>
 )
@@ -19,6 +21,8 @@ const Header = ({ siteTitle }) => (
 Header.propTypes = {
   siteTitle: PropTypes.string.isRequired,
 }
+
+export { Header }
 
 const ParentDiv = styled.div`
   background: #0070bb;
@@ -32,6 +36,7 @@ const ChildDiv = styled.div`
 `
 
 const H1 = styled.h1`
+  display: inline-block;
   margin: 0;
 `
 
@@ -39,5 +44,3 @@ const Link = styled(RawLink)`
   color: white;
   text-decoration: none;
 `
-
-export { Header }

@@ -19,12 +19,14 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
         }
       }
     `).then(({ data, errors }) => {
-      if (errors) reject(errors)
+      if (errors) return reject(errors)
 
       data.allMarkdownRemark.edges.forEach(({ node }) => {
+        const mdTemplate = path.resolve('./src/md-template.js')
+
         createPage({
           path: node.fields.slug,
-          component: path.resolve('./src/md-template.js'),
+          component: mdTemplate,
           context: {
             slug: node.fields.slug,
           },

@@ -1,7 +1,9 @@
+const constants = require('./constants')
+
 module.exports = {
   siteMetadata: {
-    title: 'amank.me',
-    author: 'Aman Kubanychbek',
+    title: constants.siteTitle,
+    author: constants.fullName,
   },
   plugins: [
     {
@@ -28,22 +30,21 @@ module.exports = {
           //   resolve: 'gatsby-remark-responsive-iframe',
           //   wrapperStyle: 'margin-bottom: 1.0725rem',
           // },
-          // 'gatsby-remark-prismjs',
           // 'gatsby-remark-copy-linked-files',
-          // 'gatsby-remark-smartypants',
+          'gatsby-remark-smartypants',
+          'gatsby-remark-autolink-headers',
+          'gatsby-remark-prismjs',
         ],
       },
     },
-    // 'gatsby-transformer-sharp',
-    // 'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'amank.me',
-        short_name: 'amank.me',
+        name: constants.siteTitle,
+        short_name: constants.siteTitle,
         start_url: '/',
         background_color: 'white',
-        theme_color: 'black',
+        theme_color: 'blue',
         display: 'minimal-ui',
         icon: 'content/code.png',
       },

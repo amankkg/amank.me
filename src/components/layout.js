@@ -14,19 +14,20 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            author
           }
         }
       }
     `}
     render={data => {
-      const title = data.site.siteMetadata.title
+      const { title, author } = data.site.siteMetadata
 
       return (
         <>
           <Helmet
             meta={[
-              { name: 'description', content: 'TODO: data => ?' },
-              { name: 'keywords', content: 'TODO: data => ?' },
+              { name: 'description', content: author },
+              { name: 'keywords', content: author },
             ]}
             defaultTitle={title}
             titleTemplate={`%s | ${title}`}
