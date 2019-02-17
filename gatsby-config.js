@@ -43,7 +43,7 @@ module.exports = {
         short_name: constants.siteTitle,
         start_url: '/',
         background_color: 'white',
-        theme_color: '0070bb',
+        theme_color: 'blue',
         display: 'minimal-ui',
         icon: 'content/code.png',
       },
