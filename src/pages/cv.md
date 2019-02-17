@@ -1,7 +1,9 @@
 ---
 title: 'CV'
+description: 'My CV'
 date: '2018-01-15'
 updated: '2019-02-04'
+keywords: 'Aman Kubanychbek, CV, resume'
 ---
 
 # Aman Kubanychbek

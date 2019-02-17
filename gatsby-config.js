@@ -4,6 +4,7 @@ module.exports = {
   siteMetadata: {
     title: constants.siteTitle,
     author: constants.fullName,
+    url: constants.siteUrl,
   },
   plugins: [
     {

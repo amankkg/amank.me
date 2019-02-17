@@ -65,15 +65,13 @@ const Metatags = ({
       { name: 'twitter:creator', content: constants.twitter },
       { property: 'og:site_name', content: constants.siteTitle },
     ]}
-  >
-    <html lang="en" />
-  </Helmet>
+  />
 )
 
 Metatags.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  keywords: PropTypes.arrayOf(PropTypes.string).isRequired,
+  keywords: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
   pathname: PropTypes.string,
   thumbnail: PropTypes.string,

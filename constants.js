@@ -1,5 +1,6 @@
 module.exports = {
   siteTitle: 'amank.me',
+  siteUrl: 'https://amank.me',
   fullName: 'Aman Kubanychbek',
   twitter: '@amankkg',
   twitterUrl: 'https://twitter.com/amankkg',
