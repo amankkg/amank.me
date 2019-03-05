@@ -18,7 +18,7 @@ keywords: 'Aman Kubanychbek, CV, resume'
 
 ## my experience
 
-### _mar 2018 - current_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
+### _mar 2018 - current_ 🎉 Software Developer @ [Klika Tech]
 
 > #### project [Arago] - AI IT automation
 >
@@ -31,23 +31,23 @@ keywords: 'Aman Kubanychbek, CV, resume'
 > - lead & mentor a sub-team of 2 developers
 > - work in distributed team
 >
-> #### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
+> #### 🎉 _aug 2018_ 🎖 achieved [Alibaba Cloud Professional]
 
 ---
 
-### _aug 2014 - feb 2018_ | 🎉 Software Developer @ [TimelySoft]
+### _aug 2014 - feb 2018_ 🎉 Software Developer @ [TimelySoft]
 
 > #### [TS.Salary.EFMChecklist] survey management system
-
+>
 > - develop ASP.NET MVC web app
 > - customer communication
 >
-> #### 📅 _late 2014 - mid 2015_ | [tender.kz] e-portal
+> #### 📅 _late 2014 - mid 2015_ [tender.kz] e-portal
 >
 > - develop PDF parsers
 > - integrate ASP.NET Identity, Web Forms and LINQ to SQL
 >
-> #### 📅 _mid 2015 - late 2016_ | ["Payminator"] payment system
+> #### 📅 _mid 2015 - late 2016_ ["Payminator"] payment system
 >
 > _🛠 React, Redux, Babel, Webpack, PostCSS, React-MDL, ASP.NET MVC, WCF, MSSQL_
 >
@@ -56,7 +56,7 @@ keywords: 'Aman Kubanychbek, CV, resume'
 > - design frontend architecture of web portal
 > - mixing of React/Redux app into a server rendered
 >
-> #### 📅 _late 2016 - early 2018_ | Statistical Business Registry
+> #### 📅 _late 2016 - early 2018_ Statistical Business Registry
 >
 > _🛠 React, Ramda, Semantic-UI, ASP.NET Core, PostgreSQL_
 >
@@ -71,21 +71,21 @@ keywords: 'Aman Kubanychbek, CV, resume'
 > - interviewing candidates
 > - open source projects collaboration
 >
-> #### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
+> #### 🎉 _feb 2017_ 🎖 achieved [70-483 Programming in C#]
 
 ---
 
-> #### 📅 _jun - jul 2016_ | events calendar web app
+> #### 📅 _jun - jul 2016_ events calendar web app
 >
 > - build handy calendar using FullCalendar for people across US with its time zones in mind
 >
-> #### 📅 _mar - may 2017_ | movie subtitles management web app
+> #### 📅 _mar - may 2017_ movie subtitles management web app
 >
 > - develop prototype using NextJS, design frontend architecture, code review
 
 ---
 
-### _2009 - 2014_ | 🎉 enrolled in [KSTU, Computer Software Engineering][university]
+### _2009 - 2014_ 🎉 enrolled in [KSTU, Computer Software Engineering][university]
 
 > - built a tetris game for desktop with unusual figures _🛠 VB.NET_
 > - built a mini payment system database and desktop client app _🛠 PowerDesigner/PowerScript, MSSQL_

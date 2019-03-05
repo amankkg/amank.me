@@ -2,18 +2,21 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from '@emotion/styled'
 
-import { Link as RawLink } from './link'
+import { Link } from './link'
 import { Emoji } from './emoji'
 
 const Header = ({ siteTitle }) => (
   <ParentDiv>
     <ChildDiv>
       <H1>
-        <Emoji label="waving hand" value="👋" />
-        <Link to="/" text={siteTitle} />
+        <HeaderLink to="/">
+          <Emoji label="waving hand" value="👋" />
+          &nbsp;
+          {siteTitle}
+        </HeaderLink>
       </H1>
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <Link to="/cv/" text="CV" />
+      <HeaderLink to="/cv/" text="CV" />
     </ChildDiv>
   </ParentDiv>
 )
@@ -40,7 +43,7 @@ const H1 = styled.h1`
   margin: 0;
 `
 
-const Link = styled(RawLink)`
+const HeaderLink = styled(Link)`
   color: white;
   text-decoration: none;
 `
