@@ -18,10 +18,10 @@
   "dependencies": {
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.12",
-    "gatsby": "2.9.1",
+    "gatsby": "2.9.2",
     "gatsby-plugin-emotion": "4.0.7",
     "gatsby-plugin-manifest": "2.1.1",
-    "gatsby-plugin-offline": "2.1.1",
+    "gatsby-plugin-offline": "2.1.2",
     "gatsby-plugin-react-helmet": "3.0.12",
     "gatsby-remark-autolink-headers": "2.0.16",
     "gatsby-remark-prismjs": "3.2.11",
