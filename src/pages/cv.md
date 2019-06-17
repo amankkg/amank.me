@@ -1,7 +1,7 @@
 ---
 title: 'CV'
 date: '2018-01-15'
-updated: '2019-02-04'
+updated: '2019-06-17'
 ---
 
 # Aman Kubanychbek
@@ -16,7 +16,7 @@ updated: '2019-02-04'
 
 ## my experience
 
-### _mar 2018 - current_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
+### _mar 2018 - jun 2019_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
 
 > _🛠 React, DraftJS, Redux-Saga, TypeScript, NestJS, JanusGraph, Gremlin_
 >
@@ -24,8 +24,10 @@ updated: '2019-02-04'
 > - build a chat bot and collaborative editor with intelligent NLP
 > - work with graph database
 > - get in touch with Scrum and Nexus frameworks
-> - lead & mentor a sub-team of 2 developers
+> - constant leadership & mentorship of other developers
 > - work in distributed team
+> - set up dev processes and dev tools
+> - hosting of dev meetings (FP, code quality)
 >
 > #### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
 
