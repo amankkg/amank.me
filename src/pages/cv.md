@@ -24,8 +24,10 @@ updated: '2019-06-17'
 > - build a chat bot and collaborative editor with intelligent NLP
 > - work with graph database
 > - get in touch with Scrum and Nexus frameworks
-> - lead & mentor a sub-team of 2 developers
+> - constant leadership & mentorship of other developers
 > - work in distributed team
+> - set up dev processes and dev tools
+> - hosting of dev meetings (FP, code quality)
 >
 > #### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
 
