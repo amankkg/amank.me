@@ -18,8 +18,6 @@ updated: '2019-02-04'
 
 ### _mar 2018 - current_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
 
-> #### project [Arago] - AI IT automation
->
 > _🛠 React, DraftJS, Redux-Saga, TypeScript, NestJS, JanusGraph, Gremlin_
 >
 > - develop and support multiple web applications front/backends and CLI tools
