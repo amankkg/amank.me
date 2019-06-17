@@ -1,7 +1,7 @@
 ---
 title: 'CV'
 date: '2018-01-15'
-updated: '2019-02-04'
+updated: '2019-06-17'
 ---
 
 # Aman Kubanychbek
@@ -16,7 +16,7 @@ updated: '2019-02-04'
 
 ## my experience
 
-### _mar 2018 - current_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
+### _mar 2018 - jun 2019_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
 
 > _🛠 React, DraftJS, Redux-Saga, TypeScript, NestJS, JanusGraph, Gremlin_
 >
