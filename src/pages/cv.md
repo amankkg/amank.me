@@ -21,7 +21,7 @@ updated: '2019-06-17'
 > _🛠 React, DraftJS, Redux-Saga, TypeScript, NestJS, JanusGraph, Gremlin_
 >
 > - develop and support multiple web applications front/backends and CLI tools
-> - build a chat bot and collaborative editor with intelligent NLP
+> - build a chatbot and collaborative editor with intelligent NLP
 > - work with graph database
 > - get in touch with Scrum and Nexus frameworks
 > - constant leadership & mentorship of other developers
