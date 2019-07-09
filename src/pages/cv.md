@@ -79,7 +79,7 @@ updated: '2019-06-17'
 >
 > #### 📅 _mar - may 2017_ | movie subtitles management web app
 >
-> - develop prototype using NextJS, design frontend architecture, code review
+> - develop MVP SPA using NextJS, design frontend architecture, code review, bootstrap the project
 
 ---
 
