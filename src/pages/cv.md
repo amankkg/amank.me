@@ -27,7 +27,7 @@ updated: '2019-07-19'
 >
 > #### 🎉 _aug 2018_ | 🎖 achieved[Alibaba Cloud Professional]
 >
-> **references**: [Evgeniy Kulpeksha, Project Manager][ekulpeksha], [Almaz Chanachev, Project Manager & Scrum-master][achanachev]
+> **references**: [Evgeniy Kulpeksha, Project Manager][ekulpeksha] | [Almaz Chanachev, Project Manager & Scrum-master][achanachev]
 
 ---
 
@@ -43,7 +43,7 @@ updated: '2019-07-19'
 >
 > #### 🎉 _feb 2017_ | 🎖 achieved 70-483 Programming in C#]
 >
-> **references**: [Andrey Gurinov, CEO][agurinov]. [Artem Belyaev, System Architect, Business Manager][abelyaev]
+> **references**: [Andrey Gurinov, CEO][agurinov] | [Artem Belyaev, System Architect, Business Manager][abelyaev]
 
 ---
 
