@@ -16,7 +16,7 @@ updated: '2019-07-19'
 
 ## my experience
 
-### _mar 2018 - jun 2019_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 
+### _mar 2018 - jun 2019_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
 
 > - involved in creation of NLP-powered chatbot and code editor with collaboration in mind
 > - constant leadership & mentorship of teammates (Nexus integration team)
