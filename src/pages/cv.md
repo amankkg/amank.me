@@ -10,7 +10,7 @@ updated: '2019-07-19'
 
 - with 5 years experience of full-stack web development (React, Node, .NET)
 - with passion for FP and types (even in JavaScript)
-- also interested in cloud & distributed systems, software design, DDD, JAMstack and Linux
+- also interested in cloud & distributed systems, DDD, JAMstack and Linux
 
 [Telegram] | [GitHub] | [Twitter] | [LinkedIn] | [amankubanychbek@gmail.com][email]
 
@@ -25,7 +25,7 @@ updated: '2019-07-19'
 >
 > _🛠 React Redux, NodeJS, DraftJS, Redux-Saga, TypeScript, NestJS, graph databases_
 >
-> #### 🎉 _aug 2018_ | 🎖 achieved[Alibaba Cloud Professional]
+> #### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
 >
 > **references**: [Evgeniy Kulpeksha, Project Manager][ekulpeksha] | [Almaz Chanachev, Project Manager & Scrum-master][achanachev]
 
@@ -39,11 +39,11 @@ updated: '2019-07-19'
 > - led the development and mentored teammates (up to 5 members)
 > - interviewed candidates
 >
-> _🛠 React, Redux, Babel, Webpack, Ramda, PostCSS, React MDL, Semantic UI, ASP.NET, WCF, MSSQL, PostgreSQL
+> _🛠 React, Redux, Babel, Webpack, Ramda, PostCSS, React MDL, Semantic UI, C#, .NET, MSSQL, PostgreSQL
 >
-> #### 🎉 _feb 2017_ | 🎖 achieved 70-483 Programming in C#]
+> #### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
 >
-> **references**: [Andrey Gurinov, CEO][agurinov] | [Artem Belyaev, System Architect, Business Manager][abelyaev]
+> **references**: [Andrey Gurinov, CEO][agurinov] | [Artem Belyaev, System Architect & Business Manager][abelyaev]
 
 ---
 
