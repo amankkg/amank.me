@@ -39,7 +39,7 @@ updated: '2019-07-19'
 > - led the development and mentored teammates (up to 5 members)
 > - interviewed candidates
 >
-> _🛠 React, Redux, Babel, Webpack Ramda, PostCSS, React MDL, Semantic UI, ASP.NET, WCF, MSSQL, PostgreSQL_
+> _🛠 React, Redux, Babel, Webpac, Ramda, PostCSS, React MDL, Semantic UI, ASP.NET, WCF, MSSQL, PostgreSQL_
 >
 > #### 🎉 _feb 2017_ | 🎖 achieved 70-483 Programming in C#]
 >
