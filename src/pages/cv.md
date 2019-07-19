@@ -8,39 +8,40 @@ updated: '2019-07-19'
 
 ## software engineer
 
-- with 5 years experience of full-stack web development (JavaScript, .NET)
+- with 5 years experience of full-stack web development (React, Node, .NET)
 - with passion for FP and types (even in JavaScript)
-- also interested in cloud & distributed systems, software design, DDD, JAM stack and Linux
+- also interested in cloud & distributed systems, software design, DDD, JAMstack and Linux
 
-[Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
+[Telegram] | [GitHub] | [Twitter] | [LinkedIn] | [amankubanychbek@gmail.com][email]
 
 ## my experience
 
-### _mar 2018 - jun 2019_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
+### _mar 2018 - jun 2019_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 
 
 > - involved in creation of NLP-powered chatbot and code editor with collaboration in mind
 > - constant leadership & mentorship of teammates (Nexus integration team)
-> - improved code quality tools and dev processes (linter, code analysis, build scripts)
+> - improved code quality tools and dev processes (linting, static code analysis, build scripts)
 > - hosted dev meetings on FP, ESLint setup, code quality
 >
-> _🛠 React,Redux, NodeJS, DraftJS, Redux-Saga, TypeScript, NestJS, graph databases_
+> _🛠 React Redux, NodeJS, DraftJS, Redux-Saga, TypeScript, NestJS, graph databases_
 >
 > #### 🎉 _aug 2018_ | 🎖 achieved[Alibaba Cloud Professional]
 >
 > **ask about it**: [Evgeniy Kulpeksha, Project Manager] [ekulpeksha], [Almaz Chanachev, Project Manager & Scrum-master] [achanachev]
+
 ---
 
 ### _aug 2014 - feb 2018_ | 🎉 Software Developer @ [TimelySoft]
 
-> - pioneered SPAs and modern frontend (React, Redux)
+> - pioneered SPAs and modern frontend (React, Redux, Webpack)
 > - pioneered DevOps practices (TFS, PowerShell)
 > - took a part in requirements analysis, solution architecture & technology picks
 > - led the development and mentored teammates (up to 5 members)
-> - interviewed of candidates
+> - interviewed candidates
 >
 > _🛠 React, Redux, Babel, Webpack Ramda, PostCSS, React MDL, Semantic UI, ASP.NET, WCF, MSSQL, PostgreSQL_
 >
-> #### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
+> #### 🎉 _feb 2017_ | 🎖 achieved 70-483 Programming in C#]
 >
 > **ask about it**: [Andrey Gurinov, CEO] [agurinov]. [Artem Belyaev, System Architect, Business Manager] [abelyaev]
 
@@ -59,11 +60,12 @@ updated: '2019-07-19'
 
 ### _2009 - 2014_ | 🎉 enrolled in [KSTU, Computer Software Engineering][university]
 
-> - built a tetris game for desktop with unusual figures _🛠 VB.NET_
-> - built a mini payment system database and desktop client app _🛠 PowerDesigner/PowerScript, MSSQL_
-> - participated in [DSS] project - decision support system desktop app _🛠 C#, WPF, MSSQL_
+> - built a tetris game for desktop with unusual figures
+> - built a mini payment system database and desktop client app
+> - participated in [DSS] project - decision support system desktop app
 > - ... and failed to graduate 😞
 
+[email]: mailto:amankubanychbek@gmail.com
 [telegram]: https://t.me/amankkg
 [github]: https://github.com/amankkg
 [twitter]: https://twitter.com/amankkg
