@@ -39,7 +39,7 @@ _🛠 React Redux, NodeJS, DraftJS, Redux-Saga, TypeScript, NestJS, graph databa
 - led the development and mentored teammates (up to 5 members)
 - interviewed candidates
 
-_🛠 React, Redux, Babel, Webpack, Ramda, PostCSS, React MDL, Semantic UI, C#, .NET, MSSQL, PostgreSQL
+_🛠 React, Redux, Babel, Webpack, Ramda, PostCSS, React MDL, Semantic UI, C#, .NET, MSSQL, PostgreSQL_
 
 #### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
 
