@@ -18,52 +18,56 @@ updated: '2019-07-19'
 
 ### _mar 2018 - jun 2019_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
 
-> - involved in creation of NLP-powered chatbot and code editor with collaboration in mind
-> - constant leadership & mentorship of teammates (Nexus integration team)
-> - improved code quality tools and dev processes (linting, static code analysis, build scripts)
-> - hosted dev meetings on FP, ESLint setup, code quality
->
-> _🛠 React Redux, NodeJS, DraftJS, Redux-Saga, TypeScript, NestJS, graph databases_
->
-> #### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
->
-> **references**: [Evgeniy Kulpeksha, Project Manager][ekulpeksha] | [Almaz Chanachev, Project Manager & Scrum-master][achanachev]
+- involved in creation of NLP-powered chatbot and code editor with collaboration in mind
+- constant leadership & mentorship of teammates (Nexus integration team)
+- improved code quality tools and dev processes (linting, static code analysis, build scripts)
+- hosted dev meetings on FP, ESLint setup, code quality
+
+_🛠 React Redux, NodeJS, DraftJS, Redux-Saga, TypeScript, NestJS, graph databases_
+
+#### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
+
+**references**: [Evgeniy Kulpeksha, Project Manager][ekulpeksha] | [Almaz Chanachev, Project Manager & Scrum-master][achanachev]
 
 ---
 
 ### _aug 2014 - feb 2018_ | 🎉 Software Developer @ [TimelySoft]
 
-> - pioneered SPAs and modern frontend (React, Redux, Webpack)
-> - pioneered DevOps practices (TFS, PowerShell)
-> - took a part in requirements analysis, solution architecture & technology picks
-> - led the development and mentored teammates (up to 5 members)
-> - interviewed candidates
->
-> _🛠 React, Redux, Babel, Webpack, Ramda, PostCSS, React MDL, Semantic UI, C#, .NET, MSSQL, PostgreSQL
->
-> #### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
->
-> **references**: [Andrey Gurinov, CEO][agurinov] | [Artem Belyaev, System Architect & Business Manager][abelyaev]
+- pioneered SPAs and modern frontend (React, Redux, Webpack)
+- pioneered DevOps practices (TFS, PowerShell)
+- took a part in requirements analysis, solution architecture & technology picks
+- led the development and mentored teammates (up to 5 members)
+- interviewed candidates
+
+_🛠 React, Redux, Babel, Webpack, Ramda, PostCSS, React MDL, Semantic UI, C#, .NET, MSSQL, PostgreSQL
+
+#### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
+
+**references**: [Andrey Gurinov, CEO][agurinov] | [Artem Belyaev, System Architect & Business Manager][abelyaev]
 
 ---
 
-> #### 📅 _jun - jul 2016_ | events calendar app for US timezones
->
-> - prototyped web app (React, FullCalendar)
->
-> #### 📅 _mar - may 2017_ | movie subtitles management app
->
-> - developed MVP and bootstrapped the project (React, Redux, NextJS, PostCSS)
-> - advised & mentored the team in frontend architecture and reviewed code
+### 📅 _jun - jul 2016_ | events calendar app for US timezones
+
+- prototyped web app
+
+_🛠 React, FullCalendar_
+
+### 📅 _mar - may 2017_ | movie subtitles management app
+
+- developed MVP and bootstrapped the project in short time
+- advised & mentored the team in frontend architecture and reviewed code
+
+_🛠 React, Redux, NextJS, PostCSS_
 
 ---
 
 ### _2009 - 2014_ | 🎉 enrolled in [KSTU, Computer Software Engineering][university]
 
-> - built a tetris game for desktop with unusual figures
-> - built a mini payment system database and desktop client app
-> - participated in [DSS] project - decision support system desktop app
-> - ... and failed to graduate 😞
+- built a tetris game for desktop with unusual figures
+- built a mini payment system database and desktop client app
+- participated in [DSS] project - decision support system desktop app
+- ... and failed to graduate 😞
 
 [email]: mailto:amankubanychbek@gmail.com
 [telegram]: https://t.me/amankkg
