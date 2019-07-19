@@ -1,96 +1,75 @@
 ---
 title: 'CV'
 date: '2018-01-15'
-updated: '2019-06-17'
+updated: '2019-07-19'
 ---
 
 # Aman Kubanychbek
 
 ## software engineer
 
-- with full-stack expertise in .NET and JavaScript
+- with 5 years experience of full-stack web development (React, Node, .NET)
 - with passion for FP and types (even in JavaScript)
-- interested in distributed systems, software design and similar serious stuff
+- also interested in cloud & distributed systems, DDD, JAMstack and Linux
 
-[Telegram] | [GitHub] | [Twitter] | [LinkedIn] | amankubanychbek@gmail.com
+[Telegram] | [GitHub] | [Twitter] | [LinkedIn] | [amankubanychbek@gmail.com][email]
 
 ## my experience
 
 ### _mar 2018 - jun 2019_ | 🎉 Software Developer @ [Klika Tech] 🇰🇬 🛫 🇧🇾
 
-> _🛠 React, DraftJS, Redux-Saga, TypeScript, NestJS, JanusGraph, Gremlin_
->
-> - develop and support multiple web applications front/backends and CLI tools
-> - build a chatbot and collaborative editor with intelligent NLP
-> - work with graph database
-> - get in touch with Scrum and Nexus frameworks
-> - constant leadership & mentorship of other developers
-> - work in distributed team
-> - set up dev processes and dev tools
-> - hosting of dev meetings (FP, code quality)
->
-> #### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
+- involved in creation of NLP-powered chatbot and code editor with collaboration in mind
+- constant leadership & mentorship of teammates (Nexus integration team)
+- improved code quality tools and dev processes (linting, static code analysis, build scripts)
+- hosted dev meetings on FP, ESLint setup, code quality
+
+_🛠 React Redux, NodeJS, DraftJS, Redux-Saga, TypeScript, NestJS, graph databases_
+
+#### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
+
+**references**: [Evgeniy Kulpeksha, Project Manager][ekulpeksha] | [Almaz Chanachev, Project Manager & Scrum-master][achanachev]
 
 ---
 
 ### _aug 2014 - feb 2018_ | 🎉 Software Developer @ [TimelySoft]
 
-> #### [TS.Salary.EFMChecklist] survey management system
+- pioneered SPAs and modern frontend (React, Redux, Webpack)
+- pioneered DevOps practices (TFS, PowerShell)
+- took a part in requirements analysis, solution architecture & technology picks
+- led the development and mentored teammates (up to 5 members)
+- interviewed candidates
 
-> - develop ASP.NET MVC web app
-> - customer communication
->
-> #### 📅 _late 2014 - mid 2015_ | [tender.kz] e-portal
->
-> - develop PDF parsers
-> - integrate ASP.NET Identity, Web Forms and LINQ to SQL
->
-> #### 📅 _mid 2015 - late 2016_ | ["Payminator"] payment system
->
-> _🛠 React, Redux, Babel, Webpack, PostCSS, React-MDL, ASP.NET MVC, WCF, MSSQL_
->
-> - design & develop web portal for system administering
-> - design server-side architecture of web portal, [NGon] library
-> - design frontend architecture of web portal
-> - mixing of React/Redux app into a server rendered
->
-> #### 📅 _late 2016 - early 2018_ | Statistical Business Registry
->
-> _🛠 React, Ramda, Semantic-UI, ASP.NET Core, PostgreSQL_
->
-> - generation of heavy forms and validation of them using Formik
-> - extend & customize React-Select component
-> - development of query builder UI using Ramda lenses
-> - advanced usage of EF Core
-> - setup DevOps pipeline
-> - requirements analysis, solution architecture & technology picks
-> - customer and user interaction
-> - lead and mentor a team of 3-4 members
-> - interviewing candidates
-> - open source projects collaboration
->
-> #### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
+_🛠 React, Redux, Babel, Webpack, Ramda, PostCSS, React MDL, Semantic UI, C#, .NET, MSSQL, PostgreSQL_
+
+#### 🎉 _feb 2017_ | 🎖 achieved [70-483 Programming in C#]
+
+**references**: [Andrey Gurinov, CEO][agurinov] | [Artem Belyaev, System Architect & Business Manager][abelyaev]
 
 ---
 
-> #### 📅 _jun - jul 2016_ | events calendar web app
->
-> - build handy calendar using FullCalendar for people across US with its time zones in mind
->
-> #### 📅 _mar - may 2017_ | movie subtitles management web app
->
-> - develop MVP SPA using NextJS, design frontend architecture, code review, bootstrap the project
+### 📅 _jun - jul 2016_ | events calendar app for US timezones
+
+- prototyped web app
+
+_🛠 React, FullCalendar_
+
+### 📅 _mar - may 2017_ | movie subtitles management app
+
+- developed MVP and bootstrapped the project in short time
+- advised & mentored the team in frontend architecture and reviewed code
+
+_🛠 React, Redux, NextJS, PostCSS_
 
 ---
 
 ### _2009 - 2014_ | 🎉 enrolled in [KSTU, Computer Software Engineering][university]
 
-> - built a tetris game for desktop with unusual figures _🛠 VB.NET_
-> - built a mini payment system database and desktop client app _🛠 PowerDesigner/PowerScript, MSSQL_
-> - participated in [DSS] project - decision support system desktop app _🛠 C#, WPF, MSSQL_
->
-> #### 😞 was expelled from university due to academic backlog
+- built a tetris game for desktop with unusual figures
+- built a mini payment system database and desktop client app
+- participated in [DSS] project - decision support system desktop app
+- ... and failed to graduate 😞
 
+[email]: mailto:amankubanychbek@gmail.com
 [telegram]: https://t.me/amankkg
 [github]: https://github.com/amankkg
 [twitter]: https://twitter.com/amankkg
@@ -99,10 +78,9 @@ updated: '2019-06-17'
 [dss]: https://github.com/amankkg/DSS
 [timelysoft]: http://www.timelysoft.net/
 [klika tech]: http://www.klika-tech.com/
-[tender.kz]: http://www.timelysoft.net/en/projects/tenderkz/
-[ts.salary.efmchecklist]: http://www.timelysoft.net/en/projects/tssalary/managementofadvertisingcampaigns/
-["payminator"]: http://www.timelysoft.net/ru/projects/Payminator/
-[ngon]: https://github.com/amankkg/NGonAlt
 [70-483 programming in c#]: https://www.youracclaim.com/badges/3c5fcbc2-5cff-4d3b-a9ac-6d23adec9f70/public_url
-[arago]: https://arago.co/
 [alibaba cloud professional]: https://gist.github.com/amankkg/6af5bb7f4db96969d7e1c44d16b69e9a
+[achanachev]: https://www.linkedin.com/in/almaz-chanachev/
+[abelyaev]: https://www.linkedin.com/in/artem-belyaev-4092a342/
+[agurinov]: https://www.linkedin.com/in/andreygurinov/
+[ekulpeksha]: https://www.linkedin.com/in/evgeniykulpeksha/
