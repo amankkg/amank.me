@@ -27,7 +27,7 @@ updated: '2019-07-19'
 >
 > #### 🎉 _aug 2018_ | 🎖 achieved[Alibaba Cloud Professional]
 >
-> **ask about it**: [Evgeniy Kulpeksha, Project Manager] [ekulpeksha], [Almaz Chanachev, Project Manager & Scrum-master] [achanachev]
+> **references**: [Evgeniy Kulpeksha, Project Manager][ekulpeksha], [Almaz Chanachev, Project Manager & Scrum-master][achanachev]
 
 ---
 
@@ -39,11 +39,11 @@ updated: '2019-07-19'
 > - led the development and mentored teammates (up to 5 members)
 > - interviewed candidates
 >
-> _🛠 React, Redux, Babel, Webpac, Ramda, PostCSS, React MDL, Semantic UI, ASP.NET, WCF, MSSQL, PostgreSQL_
+> _🛠 React, Redux, Babel, Webpack, Ramda, PostCSS, React MDL, Semantic UI, ASP.NET, WCF, MSSQL, PostgreSQL
 >
 > #### 🎉 _feb 2017_ | 🎖 achieved 70-483 Programming in C#]
 >
-> **ask about it**: [Andrey Gurinov, CEO] [agurinov]. [Artem Belyaev, System Architect, Business Manager] [abelyaev]
+> **references**: [Andrey Gurinov, CEO][agurinov]. [Artem Belyaev, System Architect, Business Manager][abelyaev]
 
 ---
 
