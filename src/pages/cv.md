@@ -21,20 +21,20 @@ updated: '2019-07-19'
 - involved in creation of NLP-powered chatbot and code editor with collaboration in mind
 - constant leadership & mentorship of teammates (Nexus integration team)
 - improved code quality tools and dev processes (linting, static code analysis, build scripts)
-- hosted dev meetings on FP, ESLint setup, code quality
+- hosted dev meetings on FP and code quality
 
-_🛠 React Redux, NodeJS, DraftJS, Redux-Saga, TypeScript, NestJS, graph databases_
+_🛠 React, Redux, NodeJS, DraftJS, Redux-Saga, TypeScript, NestJS, graph databases_
 
 #### 🎉 _aug 2018_ | 🎖 achieved [Alibaba Cloud Professional]
 
-**references**: [Evgeniy Kulpeksha, Project Manager][ekulpeksha] | [Almaz Chanachev, Project Manager & Scrum-master][achanachev]
+**references**: [Evgeniy Kulpeksha, Project Manager][ekulpeksha] | [Almaz Chanachev, Project Manager & Scrum Master][achanachev]
 
 ---
 
 ### _aug 2014 - feb 2018_ | 🎉 Software Developer @ [TimelySoft]
 
 - pioneered SPAs and modern frontend (React, Redux, Webpack)
-- pioneered DevOps practices (TFS, PowerShell)
+- pioneered DevOps practices (TFS, PowerShell/bash scripting)
 - took a part in requirements analysis, solution architecture & technology picks
 - led the development and mentored teammates (up to 5 members)
 - interviewed candidates
