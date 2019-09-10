@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import {styled} from 'linaria/react'
 
 import { Layout } from './components'
 
@@ -23,9 +24,9 @@ const MdTemplate = ({ data }) => {
   return (
     <Layout>
       <Helmet title={frontmatter.title} />
-      <small css={{ float: 'right' }}>
+      <Info>
         Last active: <strong>{frontmatter.updated}</strong>
-      </small>
+      </Info>
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   )
@@ -44,3 +45,7 @@ MdTemplate.propTypes = {
 }
 
 export default MdTemplate
+
+const Info = styled.small`
+  float: right;
+`

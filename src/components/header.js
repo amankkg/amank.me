@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from '@emotion/styled'
+import {css} from 'linaria'
+import {styled} from 'linaria/react'
 
-import { Link as RawLink } from './link'
+import { Link } from './link'
 import { Emoji } from './emoji'
 
 const Header = ({ siteTitle }) => (
@@ -10,10 +11,10 @@ const Header = ({ siteTitle }) => (
     <ChildDiv>
       <H1>
         <Emoji label="waving hand" value="👋" />
-        <Link to="/" text={siteTitle} />
+        <Link to="/" text={siteTitle} className={linkClass} />
       </H1>
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <Link to="/cv/" text="CV" />
+      <Link to="/cv/" text="CV" className={linkClass} />
     </ChildDiv>
   </ParentDiv>
 )
@@ -40,7 +41,8 @@ const H1 = styled.h1`
   margin: 0;
 `
 
-const Link = styled(RawLink)`
+// TODO: use styled(Link) https://github.com/silvenon/gatsby-plugin-linaria/issues/19#issuecomment-519432413
+const linkClass = css`
   color: white;
   text-decoration: none;
 `
