@@ -7,4 +7,4 @@ const Body = styled.div`
   padding-top: 0;
 `
 
-export { Body }
+export {Body}

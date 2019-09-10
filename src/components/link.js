@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link as GatsbyLink } from 'gatsby'
+import {Link as GatsbyLink} from 'gatsby'
 
-const Link = ({ children, text, ...props }) => (
+const Link = ({children, text, ...props}) => (
   <GatsbyLink {...props}>
     {text != null && children == null ? text : children}
   </GatsbyLink>
@@ -13,4 +13,4 @@ Link.propTypes = {
   children: PropTypes.node,
 }
 
-export { Link }
+export {Link}

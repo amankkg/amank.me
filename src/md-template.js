@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
+import {graphql} from 'gatsby'
 import {styled} from 'linaria/react'
 
-import { Layout } from './components'
+import {Layout} from './components'
 
 export const mdTemplateQuery = graphql`
   query MdTemplateQuery($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: {slug: {eq: $slug}}) {
       html
       frontmatter {
         updated(formatString: "MMM Do YYYY")
@@ -18,8 +18,8 @@ export const mdTemplateQuery = graphql`
   }
 `
 
-const MdTemplate = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+const MdTemplate = ({data}) => {
+  const {frontmatter, html} = data.markdownRemark
 
   return (
     <Layout>
@@ -27,7 +27,7 @@ const MdTemplate = ({ data }) => {
       <Info>
         Last active: <strong>{frontmatter.updated}</strong>
       </Info>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <div dangerouslySetInnerHTML={{__html: html}} />
     </Layout>
   )
 }

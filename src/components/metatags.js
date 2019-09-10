@@ -4,20 +4,13 @@ import Helmet from 'react-helmet'
 
 import constants from '../../constants'
 
-const Metatags = ({
-  title,
-  description,
-  keywords,
-  url,
-  pathname,
-  thumbnail,
-}) => (
+const Metatags = ({title, description, keywords, url, pathname, thumbnail}) => (
   <Helmet
     title={title}
     meta={[
-      { name: 'title', content: title },
-      { name: 'description', content: description },
-      { name: 'keywords', content: keywords },
+      {name: 'title', content: title},
+      {name: 'description', content: description},
+      {name: 'keywords', content: keywords},
       {
         property: 'og:title',
         content: title,
@@ -50,8 +43,8 @@ const Metatags = ({
         property: 'og:locale',
         content: 'en',
       },
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: title },
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:title', content: title},
       {
         name: 'twitter:description',
         content: description,
@@ -60,10 +53,10 @@ const Metatags = ({
         name: 'twitter:image',
         content: thumbnail && thumbnail,
       },
-      { property: 'og:type', content: 'website' },
-      { name: 'robots', content: 'index, follow' },
-      { name: 'twitter:creator', content: constants.twitter },
-      { property: 'og:site_name', content: constants.siteTitle },
+      {property: 'og:type', content: 'website'},
+      {name: 'robots', content: 'index, follow'},
+      {name: 'twitter:creator', content: constants.twitter},
+      {property: 'og:site_name', content: constants.siteTitle},
     ]}
   >
     <html lang="en" />
@@ -79,4 +72,4 @@ Metatags.propTypes = {
   thumbnail: PropTypes.string,
 }
 
-export { Metatags }
+export {Metatags}

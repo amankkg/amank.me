@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import {StaticQuery, graphql} from 'gatsby'
 
-import { Header } from './header'
-import { Body } from './body'
+import {Header} from './header'
+import {Body} from './body'
 
-const Layout = ({ children }) => (
+const Layout = ({children}) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
@@ -19,14 +19,14 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => {
-      const { title, author } = data.site.siteMetadata
+      const {title, author} = data.site.siteMetadata
 
       return (
         <>
           <Helmet
             meta={[
-              { name: 'description', content: author },
-              { name: 'keywords', content: author },
+              {name: 'description', content: author},
+              {name: 'keywords', content: author},
             ]}
             defaultTitle={title}
             titleTemplate={`%s | ${title}`}
@@ -45,4 +45,4 @@ Layout.propTypes = {
   children: PropTypes.node,
 }
 
-export { Layout }
+export {Layout}

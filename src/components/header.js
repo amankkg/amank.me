@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import {css} from 'linaria'
 import {styled} from 'linaria/react'
 
-import { Link } from './link'
-import { Emoji } from './emoji'
+import {Link} from './link'
+import {Emoji} from './emoji'
 
-const Header = ({ siteTitle }) => (
+const Header = ({siteTitle}) => (
   <ParentDiv>
     <ChildDiv>
       <H1>
@@ -23,7 +23,7 @@ Header.propTypes = {
   siteTitle: PropTypes.string.isRequired,
 }
 
-export { Header }
+export {Header}
 
 const ParentDiv = styled.div`
   background: #0070bb;
