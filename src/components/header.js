@@ -11,6 +11,7 @@ const Header = ({siteTitle}) => (
     <ChildDiv>
       <H1>
         <Emoji label="waving hand" value="👋" />
+        &nbsp;
         <Link to="/" text={siteTitle} className={linkClass} />
       </H1>
       &nbsp;&nbsp;&nbsp;&nbsp;

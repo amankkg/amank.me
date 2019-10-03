@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="amank.me logo" role="img" viewBox="0 0 512 512">
+  <style>
+    .bg {fill: #1e2832 }
+    .brckt {stroke: #bcc; stroke-width: 25}
+    .txt {fill: #fff}
+  </style>
+  <rect width="511" height="512" rx="15%" class="bg" />
+  <path d="M 20 263 l 65 -100" class="brckt" />
+  <path d="M 20 250 l 65 100" class="brckt" />
+  <text x="120" y="230" font-size="250" class="txt">A</text>
+  <text x="120" y="460" font-size="250" class="txt">K</text>
+  <path d="M 340 330 l 50 -150" class="brckt" />
+  <path d="M 490 263 l -65 -100" class="brckt" />
+  <path d="M 490 250 l -65 100" class="brckt" />
+</svg>
