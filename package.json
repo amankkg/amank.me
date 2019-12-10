@@ -16,7 +16,7 @@
     "gatsby-remark-prismjs": "3.3.27",
     "gatsby-remark-smartypants": "2.1.19",
     "gatsby-source-filesystem": "2.1.42",
-    "gatsby-transformer-remark": "2.6.41",
+    "gatsby-transformer-remark": "2.6.42",
     "linaria": "1.3.1",
     "prismjs": "1.17.1",
     "prop-types": "15.7.2",
