@@ -1,3 +1,3 @@
 # amank.me
 
-Personal website built using React, Gatsby, Linaria, Netlify.
+Personal website built using React, Gatsby, Netlify.
