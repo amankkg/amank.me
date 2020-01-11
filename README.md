@@ -1,3 +1,3 @@
 # amank.me
 
-personal website built using [Gatsby](https://www.gatsbyjs.org)
+Personal website built using React, Gatsby, Netlify.

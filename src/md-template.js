@@ -1,12 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import Helmet from 'react-helmet'
+import {graphql} from 'gatsby'
+import {styled} from 'linaria/react'
 
-import { Layout, Metatags } from './components'
+import {Layout, Metatags} from './components'
 
 export const mdTemplateQuery = graphql`
   query MdTemplateQuery($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: {slug: {eq: $slug}}) {
       html
       frontmatter {
         date(formatString: "MMM Do YYYY")
@@ -39,9 +41,9 @@ const MdTemplate = ({ data, location }) => {
         url={url}
         pathname={pathname}
       />
-      <small title={`Created: ${date}`} css={{ float: 'right' }}>
+      <Info>
         Last active: <strong>{updated}</strong>
-      </small>
+      </Info>
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   )
@@ -71,3 +73,7 @@ MdTemplate.propTypes = {
 }
 
 export default MdTemplate
+
+const Info = styled.small`
+  float: right;
+`

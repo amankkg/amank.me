@@ -1,17 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
-import styled from '@emotion/styled'
+import {graphql} from 'gatsby'
+import {styled} from 'linaria/react'
 
-import { Layout, Link } from '../components'
+import {Layout, Link} from '../components'
 
-const IndexPage = ({ data }) => (
+const IndexPage = ({data}) => (
   <>
     <Helmet title="Home" />
     <Layout>
       <PostList>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
+        {data.allMarkdownRemark.edges.map(({node}) => (
           <PostLink
             key={node.fields.slug}
             slug={node.fields.slug}
@@ -49,8 +49,8 @@ export default IndexPage
 export const pagesListQuery = graphql`
   query PagesListQuery {
     allMarkdownRemark(
-      filter: { frontmatter: { title: { ne: "CV" } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: {frontmatter: {title: {ne: "CV"}}}
+      sort: {order: DESC, fields: [frontmatter___date]}
     ) {
       edges {
         node {
@@ -73,7 +73,7 @@ const PostList = styled.div`
   padding-left: 1rem;
 `
 
-const PostLink = ({ slug, title, date }) => (
+const PostLink = ({slug, title, date}) => (
   <Link to={slug}>
     <Date>{date}</Date>: <Title>{title}</Title>
   </Link>

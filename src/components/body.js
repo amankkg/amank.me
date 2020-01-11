@@ -1,4 +1,4 @@
-import styled from '@emotion/styled'
+import {styled} from 'linaria/react'
 
 const Body = styled.div`
   margin: 0 auto;
@@ -7,4 +7,4 @@ const Body = styled.div`
   padding-top: 0;
 `
 
-export { Body }
+export {Body}

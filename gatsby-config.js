@@ -47,11 +47,11 @@ module.exports = {
         background_color: 'white',
         theme_color: 'blue',
         display: 'minimal-ui',
-        icon: 'content/code.png',
+        icon: 'content/logo.svg',
       },
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-emotion',
+    'gatsby-plugin-linaria',
   ],
 }
