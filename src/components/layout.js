@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import {StaticQuery, graphql} from 'gatsby'
 
 import {Header} from './header'
@@ -13,26 +12,15 @@ const Layout = ({children}) => (
         site {
           siteMetadata {
             title
-            author
           }
         }
       }
     `}
     render={data => {
-      const {title, author} = data.site.siteMetadata
+      const {title} = data.site.siteMetadata
 
       return (
         <>
-          <Helmet
-            meta={[
-              {name: 'description', content: author},
-              {name: 'keywords', content: author},
-            ]}
-            defaultTitle={title}
-            titleTemplate={`%s | ${title}`}
-          >
-            <html lang="en" />
-          </Helmet>
           <Header siteTitle={title} />
           <Body>{children}</Body>
         </>

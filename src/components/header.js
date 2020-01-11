@@ -14,8 +14,6 @@ const Header = ({siteTitle}) => (
         &nbsp;
         <Link to="/" text={siteTitle} className={linkClass} />
       </H1>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <Link to="/cv/" text="CV" className={linkClass} />
     </ChildDiv>
   </ParentDiv>
 )
