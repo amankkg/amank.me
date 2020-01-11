@@ -30,29 +30,24 @@ const IndexPage = () => (
           <SubText>Software Engineer from Bishkek, Kyrgyzstan</SubText>
           <br />
           <SubText>
-            <Link href={constants.telegramUrl} target="_blank">
+            <Link href={constants.telegramUrl} target="_blank" rel="noopener">
               Telegram
             </Link>
             &nbsp;
-            <Link href={constants.twitterUrl} target="_blank">
+            <Link href={constants.twitterUrl} target="_blank" rel="noopener">
               Twitter
             </Link>
             &nbsp;
-            <Link href={constants.githubUrl} target="_blank">
+            <Link href={constants.githubUrl} target="_blank" rel="noopener">
               GitHub
             </Link>
             &nbsp;
-            <Link
-              href={constants.linkedinUrl}
-              target="_blank"
-            >
+            <Link href={constants.linkedinUrl} target="_blank" rel="noopener">
               LinkedIn
             </Link>
           </SubText>
           <SubText>
-            <Link href={`mailto:${constants.email}`}>
-              {constants.email}
-            </Link>
+            <Link href={`mailto:${constants.email}`}>{constants.email}</Link>
           </SubText>
         </TextArea>
       </Background>
@@ -84,7 +79,7 @@ const Background = styled.div`
   filter: none;
 `
 
-const TextArea = styled.div`
+const TextArea = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
