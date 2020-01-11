@@ -1,6 +1,7 @@
 import React from 'react'
 import {styled} from 'linaria/react'
 
+import constants from '../../constants'
 import {Metatags} from '../components'
 
 const IndexPage = () => (
@@ -29,28 +30,28 @@ const IndexPage = () => (
           <SubText>Software Engineer from Bishkek, Kyrgyzstan</SubText>
           <br />
           <SubText>
-            <Link href="https://t.me/amankkg" target="_blank">
+            <Link href={constants.telegramUrl} target="_blank">
               Telegram
             </Link>
             &nbsp;
-            <Link href="https://twitter.com/amankkg" target="_blank">
+            <Link href={constants.twitterUrl} target="_blank">
               Twitter
             </Link>
             &nbsp;
-            <Link href="https://github.com/amankkg" target="_blank">
+            <Link href={constants.githubUrl} target="_blank">
               GitHub
             </Link>
             &nbsp;
             <Link
-              href="https://linkedin.com/in/amankubanychbek/"
+              href={constants.linkedinUrl}
               target="_blank"
             >
               LinkedIn
             </Link>
           </SubText>
           <SubText>
-            <Link href="mailto:amankubanychbek@gmail.com">
-              amankubanychbek@gmail.com
+            <Link href={`mailto:${constants.email}`}>
+              {constants.email}
             </Link>
           </SubText>
         </TextArea>
