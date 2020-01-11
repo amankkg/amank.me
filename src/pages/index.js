@@ -65,6 +65,7 @@ export default IndexPage
 const ImageBackground = styled.div`
   width: 100vw;
   height: 100vh;
+  background-color: black;
   background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),
     url(../../content/background.jpg);
   background-position: center;
