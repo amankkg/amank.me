@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "amank.me",
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
