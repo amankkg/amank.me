@@ -29,8 +29,8 @@ const Metatags = ({title, description, keywords, thumbnail}) => (
         {property: 'og:type', content: 'website'},
         {property: 'og:site_name', content: constants.siteTitle},
         {property: 'og:title', content: title},
-        // eslint-disable-next-line no-restricted-globals
-        {property: 'og:url', content: location.href},
+        // TODO: use `location.href`?
+        {property: 'og:url', content: 'https://amank.me'},
         {property: 'og:image', content: thumbnail && thumbnail},
         {property: 'og:image:secure_url', content: thumbnail && thumbnail},
         {property: 'og:description', content: description},
