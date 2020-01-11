@@ -29,16 +29,29 @@ const IndexPage = () => (
           <SubText>Software Engineer from Bishkek, Kyrgyzstan</SubText>
           <br />
           <SubText>
-            <Link href="https://t.me/amankkg" target="_blank">Telegram</Link>
+            <Link href="https://t.me/amankkg" target="_blank">
+              Telegram
+            </Link>
             &nbsp;
-            <Link href="https://twitter.com/amankkg" target="_blank">Twitter</Link>
+            <Link href="https://twitter.com/amankkg" target="_blank">
+              Twitter
+            </Link>
             &nbsp;
-            <Link href="https://github.com/amankkg" target="_blank">GitHub</Link>
+            <Link href="https://github.com/amankkg" target="_blank">
+              GitHub
+            </Link>
             &nbsp;
-            <Link href="https://linkedin.com/in/amankubanychbek/" target="_blank">LinkedIn</Link>
+            <Link
+              href="https://linkedin.com/in/amankubanychbek/"
+              target="_blank"
+            >
+              LinkedIn
+            </Link>
           </SubText>
           <SubText>
-            <Link href="mailto:amankubanychbek@gmail.com">amankubanychbek@gmail.com</Link>
+            <Link href="mailto:amankubanychbek@gmail.com">
+              amankubanychbek@gmail.com
+            </Link>
           </SubText>
         </TextArea>
       </Background>
@@ -51,7 +64,8 @@ export default IndexPage
 const ImageBackground = styled.div`
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(../../content/background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),
+    url(../../content/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
