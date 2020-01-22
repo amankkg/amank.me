@@ -30,19 +30,19 @@ const IndexPage = () => (
           <SubText>Software Engineer from Bishkek, Kyrgyzstan</SubText>
           <br />
           <SubText>
-            <Link href={constants.telegramUrl} target="_blank" rel="noopener">
+            <Link href={constants.telegramUrl} target="_blank" rel="noreferrer noopener">
               Telegram
             </Link>
             &nbsp;
-            <Link href={constants.twitterUrl} target="_blank" rel="noopener">
+            <Link href={constants.twitterUrl} target="_blank" rel="noreferrer noopener">
               Twitter
             </Link>
             &nbsp;
-            <Link href={constants.githubUrl} target="_blank" rel="noopener">
+            <Link href={constants.githubUrl} target="_blank" rel="noreferrer noopener">
               GitHub
             </Link>
             &nbsp;
-            <Link href={constants.linkedinUrl} target="_blank" rel="noopener">
+            <Link href={constants.linkedinUrl} target="_blank" rel="noreferrer noopener">
               LinkedIn
             </Link>
           </SubText>
