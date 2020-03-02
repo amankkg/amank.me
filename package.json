@@ -8,7 +8,7 @@
     "format": "prettier --write 'src/**/*.js'"
   },
   "dependencies": {
-    "gatsby": "2.19.23",
+    "gatsby": "2.19.24",
     "gatsby-plugin-linaria": "2.0.0",
     "gatsby-plugin-manifest": "2.2.42",
     "gatsby-plugin-offline": "3.0.35",
