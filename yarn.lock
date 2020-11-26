@@ -4822,10 +4822,10 @@ gatsby-page-utils@^0.0.45:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-linaria@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-linaria/-/gatsby-plugin-linaria-2.1.0.tgz#407950edc626dfb63e61fc99d41ae99c5e056ad7"
-  integrity sha512-Zc78g8h8iPZiMgRXzflwUJTyS952MYgdNA+JDevbrVf3vSlWnPqm0hw1mnO3dmYaEtFdhRNNZ/eForHg6IE5ig==
+gatsby-plugin-linaria@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-linaria/-/gatsby-plugin-linaria-2.2.0.tgz#4368130057096d18bfe5ab248b36f6f5dc6afb43"
+  integrity sha512-7zPm8fXuG0lh0j0vnDDLc9Cn7SEtb/c0OrppTPF1LJZeP73SmDkjL75ld9BxP33cCkjCrCi+HLJULKHfxjWRfA==
 
 gatsby-plugin-manifest@2.2.48:
   version "2.2.48"
